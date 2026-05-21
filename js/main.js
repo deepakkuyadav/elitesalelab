@@ -290,31 +290,7 @@ function initTilt() {
 }
 document.addEventListener('DOMContentLoaded', initTilt);
 
-// ── Page Transition ───────────────────────────────────────────
-const overlay = document.createElement('div');
-overlay.style.cssText = 'position:fixed;inset:0;background:var(--bg);z-index:9990;opacity:0;pointer-events:none;transition:opacity .35s';
-document.body.appendChild(overlay);
-
-document.addEventListener('click', e => {
-  const a = e.target.closest('a[href]');
-  if (!a) return;
-  const href = a.getAttribute('href');
-  if (!href || href.startsWith('#') || href.startsWith('http') || href.startsWith('mailto') || href.startsWith('tel') || href.startsWith('https') || a.target === '_blank') return;
-  e.preventDefault();
-  overlay.style.opacity = '1';
-  overlay.style.pointerEvents = 'all';
-  setTimeout(() => { window.location.href = href; }, 320);
-});
-
-window.addEventListener('pageshow', () => {
-  overlay.style.transition = 'none';
-  overlay.style.opacity    = '1';
-  setTimeout(() => {
-    overlay.style.transition = 'opacity .45s';
-    overlay.style.opacity    = '0';
-    overlay.style.pointerEvents = 'none';
-  }, 30);
-});
+// Page transitions disabled (conflicts resolved)
 
 // ── Careers Apply Modal ───────────────────────────────────────
 function openApply(role) {

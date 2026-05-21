@@ -1,0 +1,30 @@
+<?php
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PageController;
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\BlogController;
+use App\Http\Controllers\PortfolioController;
+use App\Http\Controllers\CareerController;
+
+Route::get('/',                          [PageController::class,   'home'])->name('home');
+Route::get('/about',                     [PageController::class,   'about'])->name('about');
+Route::get('/services',                  [PageController::class,   'services'])->name('services');
+Route::get('/services/ai-solutions',     [PageController::class,   'aiSolutions'])->name('services.ai');
+Route::get('/services/erp-solutions',    [PageController::class,   'erpSolutions'])->name('services.erp');
+Route::get('/services/web-development',  [PageController::class,   'webDev'])->name('services.web');
+Route::get('/services/mobile-development',[PageController::class,  'mobileDev'])->name('services.mobile');
+Route::get('/services/cloud-solutions',  [PageController::class,   'cloudSolutions'])->name('services.cloud');
+Route::get('/portfolio',                 [PortfolioController::class,'index'])->name('portfolio');
+Route::get('/portfolio/{slug}',          [PortfolioController::class,'show'])->name('portfolio.show');
+Route::get('/case-studies',              [PageController::class,   'caseStudies'])->name('case-studies');
+Route::get('/blog',                      [BlogController::class,   'index'])->name('blog');
+Route::get('/blog/{slug}',               [BlogController::class,   'show'])->name('blog.show');
+Route::get('/careers',                   [CareerController::class, 'index'])->name('careers');
+Route::get('/careers/{slug}',            [CareerController::class, 'show'])->name('careers.show');
+Route::post('/careers/apply',            [CareerController::class, 'apply'])->name('careers.apply');
+Route::get('/contact',                   [ContactController::class,'index'])->name('contact');
+Route::post('/contact',                  [ContactController::class,'store'])->name('contact.store');
+Route::post('/newsletter',               [ContactController::class,'newsletter'])->name('newsletter.store');
+Route::get('/privacy-policy',            [PageController::class,   'privacy'])->name('privacy');
+Route::get('/terms-conditions',          [PageController::class,   'terms'])->name('terms');
+Route::get('/sitemap.xml',               [PageController::class,   'sitemap'])->name('sitemap');

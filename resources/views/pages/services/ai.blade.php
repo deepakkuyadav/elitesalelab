@@ -1,0 +1,27 @@
+@extends('layouts.app')
+@section('title','AI & Machine Learning — EliteSalesLab')
+@section('content')
+<section class="pt-32 pb-20 relative overflow-hidden">
+  <div class="absolute inset-0 pointer-events-none"><div class="absolute inset-0 dot-grid"></div><div class="orb" style="width:500px;height:500px;background:radial-gradient(circle,#3B7BFF22,transparent);top:-150px;left:-100px"></div></div>
+  <div class="max-w-[1240px] mx-auto px-6 relative z-10">
+    <div class="mb-5"><a href="{ route('services') }" style="font-size:.875rem;color:var(--acc);display:inline-flex;align-items:center;gap:6px"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><polyline points="15 18 9 12 15 6"/></svg>All Services</a></div>
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start mb-20">
+      <div data-aos="fade-right">
+        <div class="sec-badge mb-5" style="background:#3B7BFF18;border-color:#3B7BFF30;color:#3B7BFF">AI & Machine Learning</div>
+        <h1 style="font-family:Syne,sans-serif;font-weight:800;font-size:clamp(2rem,4vw,2.8rem);letter-spacing:-.04em;margin-bottom:18px">AI <span class="grad-text">Solutions</span> That Deliver</h1>
+        <p style="color:var(--t2);font-size:.95rem;line-height:1.8;margin-bottom:28px">We build production-grade AI systems that solve real business problems — from predictive analytics to large language model integrations.</p>
+        <a href="{ route('contact') }" class="btn-p">Discuss Your Project</a>
+      </div>
+      <div data-aos="fade-left">
+        <div class="grid grid-cols-1 gap-3">
+          <div class="flex items-start gap-3 p-4 rounded-xl card"><div class="w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5" style="background:#3B7BFF1A"><svg viewBox="0 0 24 24" fill="none" stroke="#3B7BFF" stroke-width="2.5" width="11" height="11"><polyline points="20 6 9 17 4 12"/></svg></div><span style="font-size:.88rem;color:var(--t2)">Predictive Sales & Revenue Intelligence</span></div><div class="flex items-start gap-3 p-4 rounded-xl card"><div class="w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5" style="background:#3B7BFF1A"><svg viewBox="0 0 24 24" fill="none" stroke="#3B7BFF" stroke-width="2.5" width="11" height="11"><polyline points="20 6 9 17 4 12"/></svg></div><span style="font-size:.88rem;color:var(--t2)">Natural Language Processing (NLP) Pipelines</span></div><div class="flex items-start gap-3 p-4 rounded-xl card"><div class="w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5" style="background:#3B7BFF1A"><svg viewBox="0 0 24 24" fill="none" stroke="#3B7BFF" stroke-width="2.5" width="11" height="11"><polyline points="20 6 9 17 4 12"/></svg></div><span style="font-size:.88rem;color:var(--t2)">Computer Vision & Image Recognition</span></div><div class="flex items-start gap-3 p-4 rounded-xl card"><div class="w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5" style="background:#3B7BFF1A"><svg viewBox="0 0 24 24" fill="none" stroke="#3B7BFF" stroke-width="2.5" width="11" height="11"><polyline points="20 6 9 17 4 12"/></svg></div><span style="font-size:.88rem;color:var(--t2)">Large Language Model (LLM) Integration</span></div><div class="flex items-start gap-3 p-4 rounded-xl card"><div class="w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5" style="background:#3B7BFF1A"><svg viewBox="0 0 24 24" fill="none" stroke="#3B7BFF" stroke-width="2.5" width="11" height="11"><polyline points="20 6 9 17 4 12"/></svg></div><span style="font-size:.88rem;color:var(--t2)">ML Model Deployment & MLOps</span></div><div class="flex items-start gap-3 p-4 rounded-xl card"><div class="w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5" style="background:#3B7BFF1A"><svg viewBox="0 0 24 24" fill="none" stroke="#3B7BFF" stroke-width="2.5" width="11" height="11"><polyline points="20 6 9 17 4 12"/></svg></div><span style="font-size:.88rem;color:var(--t2)">Fraud Detection & Anomaly Detection</span></div><div class="flex items-start gap-3 p-4 rounded-xl card"><div class="w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5" style="background:#3B7BFF1A"><svg viewBox="0 0 24 24" fill="none" stroke="#3B7BFF" stroke-width="2.5" width="11" height="11"><polyline points="20 6 9 17 4 12"/></svg></div><span style="font-size:.88rem;color:var(--t2)">Recommendation Engines</span></div><div class="flex items-start gap-3 p-4 rounded-xl card"><div class="w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5" style="background:#3B7BFF1A"><svg viewBox="0 0 24 24" fill="none" stroke="#3B7BFF" stroke-width="2.5" width="11" height="11"><polyline points="20 6 9 17 4 12"/></svg></div><span style="font-size:.88rem;color:var(--t2)">AI-powered Document Processing</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="rounded-3xl p-12 flex flex-col md:flex-row items-center justify-between gap-8" style="background:linear-gradient(135deg,#3B7BFF18,rgba(139,92,246,.15));border:1px solid #3B7BFF30" data-aos="zoom-in">
+      <div><h2 style="font-family:Syne,sans-serif;font-weight:800;font-size:1.7rem;margin-bottom:8px">Ready to Get Started?</h2><p style="color:var(--t2);font-size:.9rem">Free technical assessment. Fixed-price delivery. NDA on day one.</p></div>
+      <a href="{ route('contact') }" class="btn-p flex-shrink-0">Get a Free Quote</a>
+    </div>
+  </div>
+</section>
+@endsection

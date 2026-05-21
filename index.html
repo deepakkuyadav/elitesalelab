@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="EliteSalesLab delivers world-class AI, ERP, mobile, web & cloud solutions for enterprises. 500+ projects. 18 countries. 15 years of excellence.">
+<meta property="og:title" content="EliteSalesLab — Enterprise AI, ERP & Software Solutions">
+<meta property="og:description" content="EliteSalesLab delivers world-class AI, ERP, mobile, web & cloud solutions for enterprises. 500+ projects. 18 countries. 15 years of excellence.">
+<meta name="robots" content="index,follow">
+<title>EliteSalesLab — Enterprise AI, ERP & Software Solutions</title>
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- LOADER -->
+<div id="pg-ld">
+  <div class="ld-sq"><span>E</span></div>
+  <div class="ld-nm">Elite<b>Sales</b>Lab</div>
+  <div class="ld-bar-w"><div class="ld-bar"></div></div>
+</div>
+
+<!-- NAVBAR -->
+<nav class="nb" id="nb">
+  <div class="nb-in">
+    <a href="index.html" class="nb-logo">
+      <div class="nb-sq"><span>E</span></div>
+      <div class="nb-nm">Elite<b>Sales</b>Lab</div>
+    </a>
+    <div class="nb-lks">
+      <a href="index.html" class="nb-lk on">Home</a>
+      <div class="nb-drop">
+        <span class="nb-lk ">Services
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="12" height="12"><polyline points="6 9 12 15 18 9"/></svg>
+        </span>
+        <div class="nb-drop-m">
+          <div class="dm-grid">
+            <a href="services.html#ai"    class="dm-lk"><span class="dm-dot" style="background:#3B7BFF"></span>AI & Machine Learning</a>
+            <a href="services.html#erp"   class="dm-lk"><span class="dm-dot" style="background:#8B5CF6"></span>ERP Solutions</a>
+            <a href="services.html#web"   class="dm-lk"><span class="dm-dot" style="background:#22D3EE"></span>Web Development</a>
+            <a href="services.html#mobile"class="dm-lk"><span class="dm-dot" style="background:#10B981"></span>Mobile Development</a>
+            <a href="services.html#cloud" class="dm-lk"><span class="dm-dot" style="background:#F59E0B"></span>Cloud & DevOps</a>
+            <a href="services.html#dt"    class="dm-lk"><span class="dm-dot" style="background:#EC4899"></span>Digital Transformation</a>
+          </div>
+          <div class="dm-bot"><a href="services.html">View all services →</a></div>
+        </div>
+      </div>
+      <a href="portfolio.html" class="nb-lk ">Portfolio</a>
+      <a href="case-studies.html" class="nb-lk ">Case Studies</a>
+      <a href="blog.html" class="nb-lk ">Blog</a>
+      <a href="about.html" class="nb-lk ">About</a>
+      <a href="careers.html" class="nb-lk ">Careers</a>
+    </div>
+    <div class="nb-act">
+      <a href="contact.html" class="btn-p btn-sm">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+        Get a Quote
+      </a>
+      <div class="hbg" id="hbg" onclick="togDr()"><span></span><span></span><span></span></div>
+    </div>
+  </div>
+</nav>
+<!-- DRAWER -->
+<div class="dr" id="dr">
+  <a href="index.html" class="dr-lk on">🏠 Home</a>
+  <a href="about.html" class="dr-lk ">👥 About</a>
+  <a href="portfolio.html" class="dr-lk ">💼 Portfolio</a>
+  <a href="case-studies.html" class="dr-lk ">📊 Case Studies</a>
+  <a href="blog.html" class="dr-lk ">📝 Blog</a>
+  <a href="careers.html" class="dr-lk ">🚀 Careers</a>
+  <a href="contact.html" class="dr-lk ">✉️ Contact</a>
+  <div class="dr-div"></div>
+  <div class="dr-lbl">Services</div>
+  <a href="services.html#ai"     class="dr-lk">AI & ML Solutions</a>
+  <a href="services.html#erp"    class="dr-lk">ERP Solutions</a>
+  <a href="services.html#web"    class="dr-lk">Web Development</a>
+  <a href="services.html#mobile" class="dr-lk">Mobile Apps</a>
+  <a href="services.html#cloud"  class="dr-lk">Cloud & DevOps</a>
+  <div class="dr-div"></div>
+  <a href="contact.html" class="btn-p btn-full">Get a Free Quote</a>
+</div>
+<div id="dr-ov" onclick="togDr()"></div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="h-bg">
+    <div class="orb o1"></div>
+    <div class="orb o2"></div>
+    <div class="orb o3"></div>
+    <div class="dot-grid" style="position:absolute;inset:0"></div>
+  </div>
+  <div class="cn">
+    <div class="hero-in">
+      <div>
+        <div class="h-badge">
+          <span class="sec-badge">
+            <span class="pulse"></span>
+            Trusted by 120+ companies in 18 countries
+          </span>
+        </div>
+        <h1 class="h-t1">
+          We Build Software That<br>
+          <span class="typed-cur" id="typed">Drives Revenue</span>
+        </h1>
+        <p class="h-sub">Enterprise AI, ERP systems, mobile apps, and custom software — engineered for scale, built for growth. <strong style="color:var(--t1)">Zero compromises on quality.</strong></p>
+        <div class="h-btns">
+          <a href="contact.html" class="btn-p">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+            Start Your Project
+          </a>
+          <a href="portfolio.html" class="btn-g">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg>
+            View Our Work
+          </a>
+        </div>
+        <div class="h-trust">
+          <div class="tr-item"><svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5" width="13" height="13"><polyline points="20 6 9 17 4 12"/></svg>Fixed-price delivery</div>          <div class="tr-item"><svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5" width="13" height="13"><polyline points="20 6 9 17 4 12"/></svg>90-day warranty</div>          <div class="tr-item"><svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5" width="13" height="13"><polyline points="20 6 9 17 4 12"/></svg>NDA on day one</div>          <div class="tr-item"><svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5" width="13" height="13"><polyline points="20 6 9 17 4 12"/></svg>2hr response SLA</div>
+        </div>
+      </div>
+      <!-- Dashboard -->
+      <div class="dash" data-aos="fade-left">
+        <div class="dash-hd">
+          <div class="d-dots"><span class="dd-r"></span><span class="dd-y"></span><span class="dd-g"></span></div>
+          <div class="dash-ttl">EliteSalesLab — Live Dashboard</div>
+        </div>
+        <div class="dash-bd">
+          <div class="d-stats">
+            <div class="d-st"><div class="d-st-ic" style="background:rgba(59,123,255,.15)"></div><div><strong>47</strong><small>Active Projects</small></div></div>
+            <div class="d-st"><div class="d-st-ic" style="background:rgba(16,185,129,.15)"></div><div><strong>98.3%</strong><small>On-Time</small></div></div>
+            <div class="d-st"><div class="d-st-ic" style="background:rgba(139,92,246,.15)"></div><div><strong>4.97</strong><small>Rating</small></div></div>
+          </div>
+          <div class="d-chart">
+            <div class="d-chart-ttl">Delivery Performance 2025</div>
+            <div class="d-bars">
+              <div class="d-bar-w"><div class="d-bar" style="height:65%;background:#3B7BFF"></div><span>Jan</span></div>
+              <div class="d-bar-w"><div class="d-bar" style="height:72%;background:#3B7BFF"></div><span>Feb</span></div>
+              <div class="d-bar-w"><div class="d-bar" style="height:58%;background:#8B5CF6"></div><span>Mar</span></div>
+              <div class="d-bar-w"><div class="d-bar" style="height:85%;background:#3B7BFF"></div><span>Apr</span></div>
+              <div class="d-bar-w"><div class="d-bar" style="height:93%;background:#22D3EE"></div><span>May</span></div>
+              <div class="d-bar-w"><div class="d-bar" style="height:79%;background:#3B7BFF"></div><span>Jun</span></div>
+            </div>
+          </div>
+          <div class="d-prog-row"><span class="d-prog-dot" style="background:#3B7BFF"></span><span class="d-prog-nm">FinNova AI Platform</span><div class="d-prog-bar"><div class="d-prog-fill" style="width:87%;background:linear-gradient(90deg,#3B7BFF,#8B5CF6)"></div></div><span class="d-prog-pct">87%</span></div>
+          <div class="d-prog-row"><span class="d-prog-dot" style="background:#10B981"></span><span class="d-prog-nm">RetailMax ERP</span><div class="d-prog-bar"><div class="d-prog-fill" style="width:100%;background:linear-gradient(90deg,#10B981,#22D3EE)"></div></div><span class="d-prog-pct">Done</span></div>
+          <div class="d-prog-row"><span class="d-prog-dot" style="background:#8B5CF6"></span><span class="d-prog-nm">HealthCore Portal</span><div class="d-prog-bar"><div class="d-prog-fill" style="width:63%;background:linear-gradient(90deg,#8B5CF6,#EC4899)"></div></div><span class="d-prog-pct">63%</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TICKER -->
+<div class="ticker-s">
+  <div class="ticker-lbl">Trusted by teams at</div>
+  <div class="ticker-wr">
+    <div class="ticker-tr">
+      <div class="tk-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="11" height="11"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg><span>FinNova Capital</span></div>      <div class="tk-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="11" height="11"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg><span>RetailMax Group</span></div>      <div class="tk-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="11" height="11"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg><span>Nexus Logistics</span></div>      <div class="tk-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="11" height="11"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg><span>HealthCore India</span></div>      <div class="tk-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="11" height="11"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg><span>EduTech Pro</span></div>      <div class="tk-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="11" height="11"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg><span>SwiftPay</span></div>      <div class="tk-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="11" height="11"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg><span>DataAxis</span></div>      <div class="tk-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="11" height="11"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg><span>CloudNine</span></div>      <div class="tk-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="11" height="11"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg><span>AgriTech India</span></div>      <div class="tk-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="11" height="11"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg><span>UrbanRide</span></div>      <div class="tk-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="11" height="11"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg><span>MobiCommerce</span></div>      <div class="tk-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="11" height="11"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg><span>PropManager</span></div>      <div class="tk-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="11" height="11"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg><span>SecureBank</span></div>      <div class="tk-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="11" height="11"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg><span>BuilderHub</span></div>      <div class="tk-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="11" height="11"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg><span>MediSync</span></div>      <div class="tk-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="11" height="11"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg><span>FinNova Capital</span></div>      <div class="tk-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="11" height="11"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg><span>RetailMax Group</span></div>      <div class="tk-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="11" height="11"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg><span>Nexus Logistics</span></div>      <div class="tk-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="11" height="11"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg><span>HealthCore India</span></div>      <div class="tk-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="11" height="11"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg><span>EduTech Pro</span></div>      <div class="tk-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="11" height="11"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg><span>SwiftPay</span></div>      <div class="tk-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="11" height="11"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg><span>DataAxis</span></div>      <div class="tk-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="11" height="11"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg><span>CloudNine</span></div>      <div class="tk-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="11" height="11"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg><span>AgriTech India</span></div>      <div class="tk-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="11" height="11"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg><span>UrbanRide</span></div>      <div class="tk-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="11" height="11"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg><span>MobiCommerce</span></div>      <div class="tk-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="11" height="11"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg><span>PropManager</span></div>      <div class="tk-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="11" height="11"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg><span>SecureBank</span></div>      <div class="tk-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="11" height="11"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg><span>BuilderHub</span></div>      <div class="tk-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="11" height="11"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg><span>MediSync</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- STATS -->
+<section class="sp2">
+  <div class="cn">
+    <div class="sh" data-aos="fade-up">
+      <div class="sec-badge">Our Impact</div>
+      <h2>Numbers That <span class="grad-text">Speak for Themselves</span></h2>
+    </div>
+    <div class="stats-g" id="stats-g">
+      <div class="stat-c" data-aos="zoom-in" data-aos-delay="0"><div class="stat-n" data-count="500" data-suffix="+">0+</div><div class="stat-l">Projects Delivered</div></div>
+      <div class="stat-c" data-aos="zoom-in" data-aos-delay="80"><div class="stat-n" data-count="120" data-suffix="+">0+</div><div class="stat-l">Team Members</div></div>
+      <div class="stat-c" data-aos="zoom-in" data-aos-delay="160"><div class="stat-n" data-count="18" data-suffix="">0</div><div class="stat-l">Countries Served</div></div>
+      <div class="stat-c" data-aos="zoom-in" data-aos-delay="240"><div class="stat-n" data-count="97" data-suffix="%">0%</div><div class="stat-l">Client Satisfaction</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="sp">
+  <div class="cn">
+    <div class="sh" data-aos="fade-up">
+      <div class="sec-badge">What We Build</div>
+      <h2>Services Built for <span class="grad-text">Enterprise Scale</span></h2>
+      <p>Every solution custom-built by specialists with deep domain expertise in your industry.</p>
+    </div>
+    <div class="sv-g">
+      <a href="services.html#ai" class="sv-c" data-aos="fade-up" data-aos-delay="0">
+        <div class="sv-ic" style="background:rgba(59,123,255,.12)"><svg viewBox="0 0 24 24" fill="none" stroke="#3B7BFF" stroke-width="1.8" width="24" height="24"><path d="M12 2a4 4 0 1 1 0 8 4 4 0 0 1 0-8zM4.93 4.93a10 10 0 1 0 14.14 0M12 12v10"/></svg></div>
+        <div class="sv-arr"><svg viewBox="0 0 24 24" fill="none" stroke="var(--acc)" stroke-width="2" width="12" height="12"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></div>
+        <h3>AI & Machine Learning</h3>
+        <p>Predictive analytics, NLP, ML pipelines, and intelligent automation that replaces manual bottlenecks and drives smarter decisions.</p>
+      </a>
+      <a href="services.html#erp" class="sv-c" data-aos="fade-up" data-aos-delay="70">
+        <div class="sv-ic" style="background:rgba(139,92,246,.12)"><svg viewBox="0 0 24 24" fill="none" stroke="#8B5CF6" stroke-width="1.8" width="24" height="24"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg></div>
+        <div class="sv-arr"><svg viewBox="0 0 24 24" fill="none" stroke="var(--acc)" stroke-width="2" width="12" height="12"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></div>
+        <h3>ERP Solutions</h3>
+        <p>Custom enterprise resource planning systems connecting inventory, finance, HR, and operations seamlessly across your organisation.</p>
+      </a>
+      <a href="services.html#web" class="sv-c" data-aos="fade-up" data-aos-delay="140">
+        <div class="sv-ic" style="background:rgba(34,211,238,.12)"><svg viewBox="0 0 24 24" fill="none" stroke="#22D3EE" stroke-width="1.8" width="24" height="24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
+        <div class="sv-arr"><svg viewBox="0 0 24 24" fill="none" stroke="var(--acc)" stroke-width="2" width="12" height="12"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></div>
+        <h3>Web Development</h3>
+        <p>Scalable SaaS platforms, enterprise portals, and high-traffic e-commerce systems built for long-term growth.</p>
+      </a>
+      <a href="services.html#mobile" class="sv-c" data-aos="fade-up" data-aos-delay="0">
+        <div class="sv-ic" style="background:rgba(16,185,129,.12)"><svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="1.8" width="24" height="24"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg></div>
+        <div class="sv-arr"><svg viewBox="0 0 24 24" fill="none" stroke="var(--acc)" stroke-width="2" width="12" height="12"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></div>
+        <h3>Mobile Development</h3>
+        <p>iOS, Android, and cross-platform apps with native performance, offline support, and consumer-grade UX.</p>
+      </a>
+      <a href="services.html#cloud" class="sv-c" data-aos="fade-up" data-aos-delay="70">
+        <div class="sv-ic" style="background:rgba(245,158,11,.12)"><svg viewBox="0 0 24 24" fill="none" stroke="#F59E0B" stroke-width="1.8" width="24" height="24"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg></div>
+        <div class="sv-arr"><svg viewBox="0 0 24 24" fill="none" stroke="var(--acc)" stroke-width="2" width="12" height="12"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></div>
+        <h3>Cloud & DevOps</h3>
+        <p>AWS, Azure, GCP architecture, migration, CI/CD pipelines, and fully managed cloud infrastructure.</p>
+      </a>
+      <a href="services.html#dt" class="sv-c" data-aos="fade-up" data-aos-delay="140">
+        <div class="sv-ic" style="background:rgba(236,72,153,.12)"><svg viewBox="0 0 24 24" fill="none" stroke="#EC4899" stroke-width="1.8" width="24" height="24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></div>
+        <div class="sv-arr"><svg viewBox="0 0 24 24" fill="none" stroke="var(--acc)" stroke-width="2" width="12" height="12"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></div>
+        <h3>Digital Transformation</h3>
+        <p>End-to-end digitisation strategy for traditional enterprises moving to modern technology stacks.</p>
+      </a>
+    </div>
+    <div style="text-align:center;margin-top:36px" data-aos="fade-up">
+      <a href="services.html" class="btn-g">View All Services →</a>
+    </div>
+  </div>
+</section>
+
+<!-- AI SHOWCASE -->
+<section class="sp2">
+  <div class="cn">
+    <div class="ai-in">
+      <div data-aos="fade-right">
+        <div class="sec-badge" style="margin-bottom:18px">AI-First Approach</div>
+        <h2 style="font-size:clamp(1.8rem,3.5vw,2.3rem);font-weight:800;letter-spacing:-.035em;margin-bottom:18px">Intelligent Automation That <span class="grad-text">Compounds Growth</span></h2>
+        <p style="color:var(--t2);font-size:.92rem;line-height:1.8;margin-bottom:24px">Our AI division has deployed 138 ML models in production — from NLP pipelines reading contracts to computer vision inspecting manufacturing defects at 99.7% accuracy.</p>
+        <div class="ai-feat"><div class="ai-ic"><svg viewBox="0 0 24 24" fill="none" stroke="#3B7BFF" stroke-width="2.5" width="13" height="13"><polyline points="20 6 9 17 4 12"/></svg></div><span style="font-size:.88rem;color:var(--t2)">Predictive Sales Intelligence — close 47% more deals</span></div>
+        <div class="ai-feat"><div class="ai-ic"><svg viewBox="0 0 24 24" fill="none" stroke="#3B7BFF" stroke-width="2.5" width="13" height="13"><polyline points="20 6 9 17 4 12"/></svg></div><span style="font-size:.88rem;color:var(--t2)">Intelligent Document Processing — 90% faster than manual</span></div>
+        <div class="ai-feat"><div class="ai-ic"><svg viewBox="0 0 24 24" fill="none" stroke="#3B7BFF" stroke-width="2.5" width="13" height="13"><polyline points="20 6 9 17 4 12"/></svg></div><span style="font-size:.88rem;color:var(--t2)">Real-time Anomaly Detection — catch fraud before damage</span></div>
+        <div class="ai-feat"><div class="ai-ic"><svg viewBox="0 0 24 24" fill="none" stroke="#3B7BFF" stroke-width="2.5" width="13" height="13"><polyline points="20 6 9 17 4 12"/></svg></div><span style="font-size:.88rem;color:var(--t2)">LLM-powered Customer Support — reduce tickets by 65%</span></div>
+        <div style="margin-top:28px"><a href="services.html#ai" class="btn-p">Explore AI Solutions</a></div>
+      </div>
+      <div class="ai-g" data-aos="fade-left">
+        <div class="ai-card"><div class="ai-num">138</div><div style="font-size:.78rem;color:var(--t3)">AI Models in Production</div></div>
+        <div class="ai-card"><div class="ai-num">99.7%</div><div style="font-size:.78rem;color:var(--t3)">Defect Detection Accuracy</div></div>
+        <div class="ai-card"><div class="ai-num">65%</div><div style="font-size:.78rem;color:var(--t3)">Avg Ticket Reduction</div></div>
+        <div class="ai-card"><div class="ai-num">24/7</div><div style="font-size:.78rem;color:var(--t3)">AI Always Working</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="sp">
+  <div class="cn">
+    <div class="sh" data-aos="fade-up">
+      <div class="sec-badge">How We Work</div>
+      <h2>From Idea to <span class="grad-text">Launch in 5 Steps</span></h2>
+    </div>
+    <div class="proc-g">
+      <div class="proc-s"><div class="proc-n">1</div><h4>Discovery</h4><p>Requirements, scope & technical planning</p></div>
+      <div class="proc-s"><div class="proc-n">2</div><h4>Design</h4><p>UX wireframes & visual design system</p></div>
+      <div class="proc-s"><div class="proc-n">3</div><h4>Build</h4><p>Agile sprints with weekly demos</p></div>
+      <div class="proc-s"><div class="proc-n">4</div><h4>QA & Test</h4><p>Automated and manual quality assurance</p></div>
+      <div class="proc-s"><div class="proc-n">5</div><h4>Launch</h4><p>Deploy, train & full handover</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="sp2">
+  <div class="cn">
+    <div class="sh" data-aos="fade-up">
+      <div class="sec-badge">Client Stories</div>
+      <h2>What Our Clients <span class="grad-text">Say</span></h2>
+    </div>
+    <div class="ts-g">
+      <div class="ts-c" data-aos="fade-up" data-aos-delay="0">
+        <div class="ts-stars"><svg viewBox="0 0 24 24" fill="#FBBF24" width="14" height="14"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24" fill="#FBBF24" width="14" height="14"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24" fill="#FBBF24" width="14" height="14"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24" fill="#FBBF24" width="14" height="14"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24" fill="#FBBF24" width="14" height="14"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+        <p class="ts-txt">"EliteSalesLab delivered our AI-powered CRM 2 weeks ahead of schedule. Quality far beyond expectations. They genuinely care about outcomes, not just deliverables."</p>
+        <div class="ts-au">
+          <div class="ts-av" style="background:linear-gradient(135deg,#3B7BFF,#22D3EE)">RV</div>
+          <div><span class="ts-nm">Rahul Verma</span><span class="ts-rl">CTO, FinNova Capital</span></div>
+        </div>
+      </div>
+      <div class="ts-c" data-aos="fade-up" data-aos-delay="0">
+        <div class="ts-stars"><svg viewBox="0 0 24 24" fill="#FBBF24" width="14" height="14"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24" fill="#FBBF24" width="14" height="14"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24" fill="#FBBF24" width="14" height="14"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24" fill="#FBBF24" width="14" height="14"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24" fill="#FBBF24" width="14" height="14"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+        <p class="ts-txt">"Our ERP went live across 4 manufacturing plants in 8 months. Flawless communication throughout. The best technology partner we have worked with."</p>
+        <div class="ts-au">
+          <div class="ts-av" style="background:linear-gradient(135deg,#8B5CF6,#EC4899)">SP</div>
+          <div><span class="ts-nm">Sunita Patel</span><span class="ts-rl">COO, Pinnacle Industries</span></div>
+        </div>
+      </div>
+      <div class="ts-c" data-aos="fade-up" data-aos-delay="0">
+        <div class="ts-stars"><svg viewBox="0 0 24 24" fill="#FBBF24" width="14" height="14"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24" fill="#FBBF24" width="14" height="14"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24" fill="#FBBF24" width="14" height="14"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24" fill="#FBBF24" width="14" height="14"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24" fill="#FBBF24" width="14" height="14"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+        <p class="ts-txt">"The mobile app has a 4.8 App Store rating and 200K+ downloads in 3 months. They understand product thinking, not just code."</p>
+        <div class="ts-au">
+          <div class="ts-av" style="background:linear-gradient(135deg,#10B981,#22D3EE)">AK</div>
+          <div><span class="ts-nm">Arjun Kapoor</span><span class="ts-rl">Founder, SwiftDeliver</span></div>
+        </div>
+      </div>
+      <div class="ts-c" data-aos="fade-up" data-aos-delay="80">
+        <div class="ts-stars"><svg viewBox="0 0 24 24" fill="#FBBF24" width="14" height="14"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24" fill="#FBBF24" width="14" height="14"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24" fill="#FBBF24" width="14" height="14"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24" fill="#FBBF24" width="14" height="14"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24" fill="#FBBF24" width="14" height="14"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+        <p class="ts-txt">"Their AI team built our data pipeline from scratch. Reduced processing time by 78%. Absolutely world-class engineers."</p>
+        <div class="ts-au">
+          <div class="ts-av" style="background:linear-gradient(135deg,#F59E0B,#EC4899)">PS</div>
+          <div><span class="ts-nm">Priya Sharma</span><span class="ts-rl">VP Tech, DataAxis</span></div>
+        </div>
+      </div>
+      <div class="ts-c" data-aos="fade-up" data-aos-delay="80">
+        <div class="ts-stars"><svg viewBox="0 0 24 24" fill="#FBBF24" width="14" height="14"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24" fill="#FBBF24" width="14" height="14"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24" fill="#FBBF24" width="14" height="14"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24" fill="#FBBF24" width="14" height="14"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24" fill="#FBBF24" width="14" height="14"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+        <p class="ts-txt">"Migrated our entire cloud infrastructure with zero downtime. Saved 45% on AWS costs. EliteSalesLab is our permanent tech partner now."</p>
+        <div class="ts-au">
+          <div class="ts-av" style="background:linear-gradient(135deg,#3B7BFF,#8B5CF6)">VS</div>
+          <div><span class="ts-nm">Vikram Singh</span><span class="ts-rl">CEO, RetailMax</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TECH STACK -->
+<section class="sp">
+  <div class="cn">
+    <div class="sh" data-aos="fade-up">
+      <div class="sec-badge">Tech Stack</div>
+      <h2>Modern Stack. <span class="grad-text">Battle-Tested.</span></h2>
+    </div>
+    <div class="tech-g">
+      <div class="tech-c" data-aos="fade-up" data-aos-delay="0">
+        <div class="tech-cat">AI & ML</div>
+        <div class="tech-pills"><span class="tech-pill">Python</span><span class="tech-pill">TensorFlow</span><span class="tech-pill">PyTorch</span><span class="tech-pill">OpenAI</span><span class="tech-pill">LangChain</span><span class="tech-pill">Hugging Face</span></div>
+      </div>
+      <div class="tech-c" data-aos="fade-up" data-aos-delay="80">
+        <div class="tech-cat">Backend</div>
+        <div class="tech-pills"><span class="tech-pill">Laravel</span><span class="tech-pill">Node.js</span><span class="tech-pill">Django</span><span class="tech-pill">FastAPI</span><span class="tech-pill">GraphQL</span><span class="tech-pill">REST API</span></div>
+      </div>
+      <div class="tech-c" data-aos="fade-up" data-aos-delay="160">
+        <div class="tech-cat">Frontend</div>
+        <div class="tech-pills"><span class="tech-pill">React</span><span class="tech-pill">Vue.js</span><span class="tech-pill">Next.js</span><span class="tech-pill">TypeScript</span><span class="tech-pill">TailwindCSS</span><span class="tech-pill">Nuxt.js</span></div>
+      </div>
+      <div class="tech-c" data-aos="fade-up" data-aos-delay="0">
+        <div class="tech-cat">Mobile</div>
+        <div class="tech-pills"><span class="tech-pill">React Native</span><span class="tech-pill">Flutter</span><span class="tech-pill">Swift</span><span class="tech-pill">Kotlin</span><span class="tech-pill">Expo</span><span class="tech-pill">Capacitor</span></div>
+      </div>
+      <div class="tech-c" data-aos="fade-up" data-aos-delay="80">
+        <div class="tech-cat">Cloud</div>
+        <div class="tech-pills"><span class="tech-pill">AWS</span><span class="tech-pill">Azure</span><span class="tech-pill">GCP</span><span class="tech-pill">Docker</span><span class="tech-pill">Kubernetes</span><span class="tech-pill">Terraform</span></div>
+      </div>
+      <div class="tech-c" data-aos="fade-up" data-aos-delay="160">
+        <div class="tech-cat">Database</div>
+        <div class="tech-pills"><span class="tech-pill">MySQL</span><span class="tech-pill">PostgreSQL</span><span class="tech-pill">MongoDB</span><span class="tech-pill">Redis</span><span class="tech-pill">Elasticsearch</span><span class="tech-pill">DynamoDB</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="sp2">
+  <div class="cn">
+    <div class="sh" data-aos="fade-up">
+      <div class="sec-badge">FAQ</div>
+      <h2>Common <span class="grad-text">Questions</span></h2>
+    </div>
+    <div class="faq-wr">
+      <div class="faq-i op" onclick="togFaq(this)">
+        <div class="faq-q">What is your typical project timeline?<svg class="faq-chv" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></div>
+        <div class="faq-a op"><p>MVPs take 8-14 weeks. Full ERP or AI platforms run 4-9 months. After discovery we provide a fixed timeline with weekly milestones.</p></div>
+      </div>
+      <div class="faq-i " onclick="togFaq(this)">
+        <div class="faq-q">Do you work on fixed-price contracts?<svg class="faq-chv" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></div>
+        <div class="faq-a "><p>Yes. Most projects run on fixed-price milestone-based contracts. You know the scope, timeline, and cost before we write a single line of code.</p></div>
+      </div>
+      <div class="faq-i " onclick="togFaq(this)">
+        <div class="faq-q">What is your minimum project size?<svg class="faq-chv" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></div>
+        <div class="faq-a "><p>We typically start from INR 5 Lakhs for focused engagements. Enterprise average is INR 25-80 Lakhs. Dedicated team models available for ongoing builds.</p></div>
+      </div>
+      <div class="faq-i " onclick="togFaq(this)">
+        <div class="faq-q">Do you sign NDAs before discovery?<svg class="faq-chv" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></div>
+        <div class="faq-a "><p>Absolutely — mutual NDA before any discovery call. Your IP, business logic, and data remain 100% yours throughout and after the project.</p></div>
+      </div>
+      <div class="faq-i " onclick="togFaq(this)">
+        <div class="faq-q">What post-delivery support do you offer?<svg class="faq-chv" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></div>
+        <div class="faq-a "><p>90-day bug-fix warranty at no charge, plus AMC and dedicated support retainers for ongoing maintenance and feature development.</p></div>
+      </div>
+      <div class="faq-i " onclick="togFaq(this)">
+        <div class="faq-q">Do you work with international clients?<svg class="faq-chv" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></div>
+        <div class="faq-a "><p>Yes — 500+ projects across India, UAE, UK, USA, Singapore, and Australia. Time zone alignment is never a barrier for us.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- NEWSLETTER + CTA -->
+<section class="sp">
+  <div class="cn">
+    <div class="nl-box" style="margin-bottom:24px" data-aos="zoom-in">
+      <div style="position:relative;z-index:1">
+        <h2>Stay Ahead of the <span class="grad-text">Tech Curve</span></h2>
+        <p>Monthly insights on AI, ERP, and enterprise software. No spam.</p>
+        <div class="nl-fm">
+          <input type="email" class="fi" id="nl-em" placeholder="your@email.com">
+          <button class="btn-p" onclick="subNl()">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            Subscribe
+          </button>
+        </div>
+        <div class="nl-ok" id="nl-ok">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="18" height="18"><polyline points="20 6 9 17 4 12"/></svg>
+          You're in! Welcome to the EliteSalesLab community.
+        </div>
+      </div>
+    </div>
+    <div class="cta-b" data-aos="zoom-in">
+      <div class="cta-tx">
+        <h2>Ready to Build Something <span class="grad-text">Exceptional?</span></h2>
+        <p>Free technical assessment. Honest advice. Real engineers. No sales pitch.</p>
+      </div>
+      <div class="cta-ac">
+        <a href="contact.html" class="btn-p">Talk to an Engineer</a>
+        <a href="portfolio.html" class="btn-g">View Portfolio</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="cn">
+    <!-- Newsletter -->
+    <div class="nl-box" style="margin-bottom:52px">
+      <div style="position:relative;z-index:1">
+        <h2>Stay Ahead of the <span class="grad-text">Tech Curve</span></h2>
+        <p>Monthly insights on AI, ERP, and enterprise software. No spam. Unsubscribe anytime.</p>
+        <div class="nl-fm">
+          <input type="email" class="fi" id="nl-em" placeholder="your@email.com">
+          <button class="btn-p" onclick="subNl()">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            Subscribe
+          </button>
+        </div>
+        <div class="nl-ok" id="nl-ok">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="18" height="18"><polyline points="20 6 9 17 4 12"/></svg>
+          You're in! Welcome to the EliteSalesLab community.
+        </div>
+      </div>
+    </div>
+    <div class="ft-g">
+      <div class="ft-br">
+        <div class="ft-logo">
+          <div class="ft-sq"><span>E</span></div>
+          <strong>Elite<b>Sales</b>Lab</strong>
+        </div>
+        <p>Premium IT & Software Solutions. AI, ERP, mobile, and web development for enterprises globally since 2009.</p>
+      </div>
+      <div class="ft-col">
+        <h4>Services</h4>
+        <a href="services.html#ai">AI & ML Solutions</a>
+        <a href="services.html#erp">ERP Development</a>
+        <a href="services.html#web">Web Development</a>
+        <a href="services.html#mobile">Mobile Apps</a>
+        <a href="services.html#cloud">Cloud & DevOps</a>
+        <a href="services.html#dt">Digital Transformation</a>
+      </div>
+      <div class="ft-col">
+        <h4>Company</h4>
+        <a href="about.html">About Us</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="case-studies.html">Case Studies</a>
+        <a href="blog.html">Blog</a>
+        <a href="careers.html">Careers</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+      <div class="ft-col">
+        <h4>Contact</h4>
+        <a>Level 12, Platina Building, BKC Mumbai 400 051</a>
+        <a href="mailto:hello@elitesaleslab.com">hello@elitesaleslab.com</a>
+        <a href="tel:+919876543210">+91 98765 43210</a>
+        <a>Mon–Fri: 9AM–7PM IST</a>
+        <a href="privacy.html" style="margin-top:12px">Privacy Policy</a>
+        <a href="terms.html">Terms & Conditions</a>
+      </div>
+    </div>
+    <div class="ft-bt">
+      <p class="ft-cp">© 2025 EliteSalesLab. All rights reserved.</p>
+      <div class="ft-sc">
+        <button class="ft-sb"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="15" height="15"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></button>
+        <button class="ft-sb"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="15" height="15"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg></button>
+        <button class="ft-sb"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="15" height="15"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></button>
+        <button class="ft-sb"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="15" height="15"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></button>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp -->
+<a href="https://wa.me/919876543210" class="wa-fl" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <svg viewBox="0 0 24 24" fill="white" width="27" height="27"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+</a>
+<button id="st-btn" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Scroll top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5" width="17" height="17"><polyline points="18 15 12 9 6 15"/></svg>
+</button>
+<script src="js/main.js"></script>
+</body></html>

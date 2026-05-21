@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 240">
+<defs>
+  <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#06091A"/><stop offset="100%" style="stop-color:#0B1028"/></linearGradient>
+</defs>
+<rect width="520" height="240" fill="url(#bg)" rx="16"/>
+<!-- Mockup article cards -->
+<rect x="20" y="20" width="230" height="200" rx="14" fill="rgba(59,123,255,0.08)" stroke="rgba(59,123,255,0.18)" stroke-width="1.5"/>
+<rect x="30" y="30" width="210" height="80" rx="8" fill="rgba(59,123,255,0.15)"/>
+<text x="135" y="70" text-anchor="middle" font-family="sans-serif" font-size="28">🤖</text>
+<rect x="30" y="118" width="100" height="12" rx="6" fill="rgba(59,123,255,0.3)"/>
+<rect x="30" y="136" width="210" height="8" rx="4" fill="rgba(255,255,255,0.06)"/>
+<rect x="30" y="150" width="180" height="8" rx="4" fill="rgba(255,255,255,0.05)"/>
+<rect x="30" y="164" width="150" height="8" rx="4" fill="rgba(255,255,255,0.04)"/>
+<text x="30" y="200" font-family="sans-serif" font-size="8" fill="#4B5982">Rahul Sharma · May 15, 2025</text>
+<rect x="180" y="192" width="50" height="16" rx="8" fill="rgba(59,123,255,0.2)" stroke="rgba(59,123,255,0.3)" stroke-width="1"/>
+<text x="205" y="204" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#6A9FFF">AI & ML</text>
+
+<rect x="270" y="20" width="230" height="200" rx="14" fill="rgba(139,92,246,0.08)" stroke="rgba(139,92,246,0.18)" stroke-width="1.5"/>
+<rect x="280" y="30" width="210" height="80" rx="8" fill="rgba(139,92,246,0.15)"/>
+<text x="385" y="70" text-anchor="middle" font-family="sans-serif" font-size="28">📱</text>
+<rect x="280" y="118" width="120" height="12" rx="6" fill="rgba(139,92,246,0.3)"/>
+<rect x="280" y="136" width="210" height="8" rx="4" fill="rgba(255,255,255,0.06)"/>
+<rect x="280" y="150" width="190" height="8" rx="4" fill="rgba(255,255,255,0.05)"/>
+<rect x="280" y="164" width="160" height="8" rx="4" fill="rgba(255,255,255,0.04)"/>
+<text x="280" y="200" font-family="sans-serif" font-size="8" fill="#4B5982">Aditya Verma · Apr 28, 2025</text>
+<rect x="420" y="192" width="70" height="16" rx="8" fill="rgba(139,92,246,0.2)" stroke="rgba(139,92,246,0.3)" stroke-width="1"/>
+<text x="455" y="204" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#C4B5FD">Mobile Dev</text>
+</svg>

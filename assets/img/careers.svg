@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 260">
+<defs>
+  <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#06091A"/><stop offset="100%" style="stop-color:#0B1028"/></linearGradient>
+  <linearGradient id="gr" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#3B7BFF"/><stop offset="100%" style="stop-color:#8B5CF6"/></linearGradient>
+</defs>
+<rect width="520" height="260" fill="url(#bg)" rx="16"/>
+<!-- Growth chart -->
+<rect x="30" y="20" width="240" height="220" rx="16" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+<text x="150" y="46" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="700" fill="#EEF2FF">Team Growth</text>
+<!-- Chart bars -->
+<g>
+  <rect x="50" y="180" width="24" height="30" rx="4" fill="rgba(59,123,255,0.3)"/>
+  <text x="62" y="222" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#4B5982">2020</text>
+  <rect x="85" y="155" width="24" height="55" rx="4" fill="rgba(59,123,255,0.4)"/>
+  <text x="97" y="222" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#4B5982">2021</text>
+  <rect x="120" y="130" width="24" height="80" rx="4" fill="rgba(59,123,255,0.55)"/>
+  <text x="132" y="222" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#4B5982">2022</text>
+  <rect x="155" y="105" width="24" height="105" rx="4" fill="rgba(59,123,255,0.7)"/>
+  <text x="167" y="222" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#4B5982">2023</text>
+  <rect x="190" y="75" width="24" height="135" rx="4" fill="url(#gr)"/>
+  <text x="202" y="222" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#4B5982">2024</text>
+  <rect x="225" y="56" width="24" height="154" rx="4" fill="url(#gr)" opacity="0.9"/>
+  <text x="237" y="222" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#6A9FFF" font-weight="700">2025</text>
+</g>
+<text x="237" y="50" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="800" fill="#EEF2FF">120</text>
+<!-- Right side - perks -->
+<rect x="290" y="20" width="210" height="220" rx="16" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+<text x="395" y="46" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="700" fill="#EEF2FF">Why Join Us</text>
+<g font-family="sans-serif" font-size="9">
+  <rect x="305" y="58" width="180" height="28" rx="9" fill="rgba(59,123,255,0.1)" stroke="rgba(59,123,255,0.2)" stroke-width="1"/>
+  <text x="323" y="77" fill="#22D3EE">🌍</text><text x="340" y="77" fill="#8896B8">Work from anywhere</text>
+  <rect x="305" y="94" width="180" height="28" rx="9" fill="rgba(16,185,129,0.1)" stroke="rgba(16,185,129,0.2)" stroke-width="1"/>
+  <text x="323" y="113" fill="#10B981">📚</text><text x="340" y="113" fill="#8896B8">INR 50K learning budget</text>
+  <rect x="305" y="130" width="180" height="28" rx="9" fill="rgba(139,92,246,0.1)" stroke="rgba(139,92,246,0.2)" stroke-width="1"/>
+  <text x="323" y="149" fill="#8B5CF6">🚀</text><text x="340" y="149" fill="#8896B8">Fast career growth</text>
+  <rect x="305" y="166" width="180" height="28" rx="9" fill="rgba(245,158,11,0.1)" stroke="rgba(245,158,11,0.2)" stroke-width="1"/>
+  <text x="323" y="185" fill="#F59E0B">💰</text><text x="340" y="185" fill="#8896B8">Competitive salary</text>
+  <rect x="305" y="202" width="180" height="28" rx="9" fill="rgba(236,72,153,0.1)" stroke="rgba(236,72,153,0.2)" stroke-width="1"/>
+  <text x="323" y="221" fill="#EC4899">🏆</text><text x="340" y="221" fill="#8896B8">Award-winning culture</text>
+</g>
+</svg>

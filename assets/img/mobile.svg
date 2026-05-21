@@ -1,97 +1,127 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 380">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 340">
 <defs>
   <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#06091A"/><stop offset="100%" style="stop-color:#0B1028"/></linearGradient>
   <linearGradient id="gm" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#10B981"/><stop offset="100%" style="stop-color:#22D3EE"/></linearGradient>
-  <clipPath id="phone-clip"><rect x="155" y="20" width="210" height="340" rx="32"/></clipPath>
 </defs>
-<rect width="520" height="380" fill="url(#bg)" rx="20"/>
-<g opacity="0.06"><circle cx="20" cy="20" r="1" fill="#fff"/><circle cx="20" cy="52" r="1" fill="#fff"/><circle cx="20" cy="84" r="1" fill="#fff"/><circle cx="20" cy="116" r="1" fill="#fff"/><circle cx="20" cy="148" r="1" fill="#fff"/><circle cx="20" cy="180" r="1" fill="#fff"/><circle cx="20" cy="212" r="1" fill="#fff"/><circle cx="20" cy="244" r="1" fill="#fff"/><circle cx="20" cy="276" r="1" fill="#fff"/><circle cx="20" cy="308" r="1" fill="#fff"/><circle cx="20" cy="340" r="1" fill="#fff"/><circle cx="20" cy="372" r="1" fill="#fff"/><circle cx="52" cy="20" r="1" fill="#fff"/><circle cx="52" cy="52" r="1" fill="#fff"/><circle cx="52" cy="84" r="1" fill="#fff"/><circle cx="52" cy="116" r="1" fill="#fff"/><circle cx="52" cy="148" r="1" fill="#fff"/><circle cx="52" cy="180" r="1" fill="#fff"/><circle cx="52" cy="212" r="1" fill="#fff"/><circle cx="52" cy="244" r="1" fill="#fff"/><circle cx="52" cy="276" r="1" fill="#fff"/><circle cx="52" cy="308" r="1" fill="#fff"/><circle cx="52" cy="340" r="1" fill="#fff"/><circle cx="52" cy="372" r="1" fill="#fff"/><circle cx="84" cy="20" r="1" fill="#fff"/><circle cx="84" cy="52" r="1" fill="#fff"/><circle cx="84" cy="84" r="1" fill="#fff"/><circle cx="84" cy="116" r="1" fill="#fff"/><circle cx="84" cy="148" r="1" fill="#fff"/><circle cx="84" cy="180" r="1" fill="#fff"/><circle cx="84" cy="212" r="1" fill="#fff"/><circle cx="84" cy="244" r="1" fill="#fff"/><circle cx="84" cy="276" r="1" fill="#fff"/><circle cx="84" cy="308" r="1" fill="#fff"/><circle cx="84" cy="340" r="1" fill="#fff"/><circle cx="84" cy="372" r="1" fill="#fff"/><circle cx="116" cy="20" r="1" fill="#fff"/><circle cx="116" cy="52" r="1" fill="#fff"/><circle cx="116" cy="84" r="1" fill="#fff"/><circle cx="116" cy="116" r="1" fill="#fff"/><circle cx="116" cy="148" r="1" fill="#fff"/><circle cx="116" cy="180" r="1" fill="#fff"/><circle cx="116" cy="212" r="1" fill="#fff"/><circle cx="116" cy="244" r="1" fill="#fff"/><circle cx="116" cy="276" r="1" fill="#fff"/><circle cx="116" cy="308" r="1" fill="#fff"/><circle cx="116" cy="340" r="1" fill="#fff"/><circle cx="116" cy="372" r="1" fill="#fff"/><circle cx="148" cy="20" r="1" fill="#fff"/><circle cx="148" cy="52" r="1" fill="#fff"/><circle cx="148" cy="84" r="1" fill="#fff"/><circle cx="148" cy="116" r="1" fill="#fff"/><circle cx="148" cy="148" r="1" fill="#fff"/><circle cx="148" cy="180" r="1" fill="#fff"/><circle cx="148" cy="212" r="1" fill="#fff"/><circle cx="148" cy="244" r="1" fill="#fff"/><circle cx="148" cy="276" r="1" fill="#fff"/><circle cx="148" cy="308" r="1" fill="#fff"/><circle cx="148" cy="340" r="1" fill="#fff"/><circle cx="148" cy="372" r="1" fill="#fff"/><circle cx="180" cy="20" r="1" fill="#fff"/><circle cx="180" cy="52" r="1" fill="#fff"/><circle cx="180" cy="84" r="1" fill="#fff"/><circle cx="180" cy="116" r="1" fill="#fff"/><circle cx="180" cy="148" r="1" fill="#fff"/><circle cx="180" cy="180" r="1" fill="#fff"/><circle cx="180" cy="212" r="1" fill="#fff"/><circle cx="180" cy="244" r="1" fill="#fff"/><circle cx="180" cy="276" r="1" fill="#fff"/><circle cx="180" cy="308" r="1" fill="#fff"/><circle cx="180" cy="340" r="1" fill="#fff"/><circle cx="180" cy="372" r="1" fill="#fff"/><circle cx="212" cy="20" r="1" fill="#fff"/><circle cx="212" cy="52" r="1" fill="#fff"/><circle cx="212" cy="84" r="1" fill="#fff"/><circle cx="212" cy="116" r="1" fill="#fff"/><circle cx="212" cy="148" r="1" fill="#fff"/><circle cx="212" cy="180" r="1" fill="#fff"/><circle cx="212" cy="212" r="1" fill="#fff"/><circle cx="212" cy="244" r="1" fill="#fff"/><circle cx="212" cy="276" r="1" fill="#fff"/><circle cx="212" cy="308" r="1" fill="#fff"/><circle cx="212" cy="340" r="1" fill="#fff"/><circle cx="212" cy="372" r="1" fill="#fff"/><circle cx="244" cy="20" r="1" fill="#fff"/><circle cx="244" cy="52" r="1" fill="#fff"/><circle cx="244" cy="84" r="1" fill="#fff"/><circle cx="244" cy="116" r="1" fill="#fff"/><circle cx="244" cy="148" r="1" fill="#fff"/><circle cx="244" cy="180" r="1" fill="#fff"/><circle cx="244" cy="212" r="1" fill="#fff"/><circle cx="244" cy="244" r="1" fill="#fff"/><circle cx="244" cy="276" r="1" fill="#fff"/><circle cx="244" cy="308" r="1" fill="#fff"/><circle cx="244" cy="340" r="1" fill="#fff"/><circle cx="244" cy="372" r="1" fill="#fff"/><circle cx="276" cy="20" r="1" fill="#fff"/><circle cx="276" cy="52" r="1" fill="#fff"/><circle cx="276" cy="84" r="1" fill="#fff"/><circle cx="276" cy="116" r="1" fill="#fff"/><circle cx="276" cy="148" r="1" fill="#fff"/><circle cx="276" cy="180" r="1" fill="#fff"/><circle cx="276" cy="212" r="1" fill="#fff"/><circle cx="276" cy="244" r="1" fill="#fff"/><circle cx="276" cy="276" r="1" fill="#fff"/><circle cx="276" cy="308" r="1" fill="#fff"/><circle cx="276" cy="340" r="1" fill="#fff"/><circle cx="276" cy="372" r="1" fill="#fff"/><circle cx="308" cy="20" r="1" fill="#fff"/><circle cx="308" cy="52" r="1" fill="#fff"/><circle cx="308" cy="84" r="1" fill="#fff"/><circle cx="308" cy="116" r="1" fill="#fff"/><circle cx="308" cy="148" r="1" fill="#fff"/><circle cx="308" cy="180" r="1" fill="#fff"/><circle cx="308" cy="212" r="1" fill="#fff"/><circle cx="308" cy="244" r="1" fill="#fff"/><circle cx="308" cy="276" r="1" fill="#fff"/><circle cx="308" cy="308" r="1" fill="#fff"/><circle cx="308" cy="340" r="1" fill="#fff"/><circle cx="308" cy="372" r="1" fill="#fff"/><circle cx="340" cy="20" r="1" fill="#fff"/><circle cx="340" cy="52" r="1" fill="#fff"/><circle cx="340" cy="84" r="1" fill="#fff"/><circle cx="340" cy="116" r="1" fill="#fff"/><circle cx="340" cy="148" r="1" fill="#fff"/><circle cx="340" cy="180" r="1" fill="#fff"/><circle cx="340" cy="212" r="1" fill="#fff"/><circle cx="340" cy="244" r="1" fill="#fff"/><circle cx="340" cy="276" r="1" fill="#fff"/><circle cx="340" cy="308" r="1" fill="#fff"/><circle cx="340" cy="340" r="1" fill="#fff"/><circle cx="340" cy="372" r="1" fill="#fff"/><circle cx="372" cy="20" r="1" fill="#fff"/><circle cx="372" cy="52" r="1" fill="#fff"/><circle cx="372" cy="84" r="1" fill="#fff"/><circle cx="372" cy="116" r="1" fill="#fff"/><circle cx="372" cy="148" r="1" fill="#fff"/><circle cx="372" cy="180" r="1" fill="#fff"/><circle cx="372" cy="212" r="1" fill="#fff"/><circle cx="372" cy="244" r="1" fill="#fff"/><circle cx="372" cy="276" r="1" fill="#fff"/><circle cx="372" cy="308" r="1" fill="#fff"/><circle cx="372" cy="340" r="1" fill="#fff"/><circle cx="372" cy="372" r="1" fill="#fff"/><circle cx="404" cy="20" r="1" fill="#fff"/><circle cx="404" cy="52" r="1" fill="#fff"/><circle cx="404" cy="84" r="1" fill="#fff"/><circle cx="404" cy="116" r="1" fill="#fff"/><circle cx="404" cy="148" r="1" fill="#fff"/><circle cx="404" cy="180" r="1" fill="#fff"/><circle cx="404" cy="212" r="1" fill="#fff"/><circle cx="404" cy="244" r="1" fill="#fff"/><circle cx="404" cy="276" r="1" fill="#fff"/><circle cx="404" cy="308" r="1" fill="#fff"/><circle cx="404" cy="340" r="1" fill="#fff"/><circle cx="404" cy="372" r="1" fill="#fff"/><circle cx="436" cy="20" r="1" fill="#fff"/><circle cx="436" cy="52" r="1" fill="#fff"/><circle cx="436" cy="84" r="1" fill="#fff"/><circle cx="436" cy="116" r="1" fill="#fff"/><circle cx="436" cy="148" r="1" fill="#fff"/><circle cx="436" cy="180" r="1" fill="#fff"/><circle cx="436" cy="212" r="1" fill="#fff"/><circle cx="436" cy="244" r="1" fill="#fff"/><circle cx="436" cy="276" r="1" fill="#fff"/><circle cx="436" cy="308" r="1" fill="#fff"/><circle cx="436" cy="340" r="1" fill="#fff"/><circle cx="436" cy="372" r="1" fill="#fff"/><circle cx="468" cy="20" r="1" fill="#fff"/><circle cx="468" cy="52" r="1" fill="#fff"/><circle cx="468" cy="84" r="1" fill="#fff"/><circle cx="468" cy="116" r="1" fill="#fff"/><circle cx="468" cy="148" r="1" fill="#fff"/><circle cx="468" cy="180" r="1" fill="#fff"/><circle cx="468" cy="212" r="1" fill="#fff"/><circle cx="468" cy="244" r="1" fill="#fff"/><circle cx="468" cy="276" r="1" fill="#fff"/><circle cx="468" cy="308" r="1" fill="#fff"/><circle cx="468" cy="340" r="1" fill="#fff"/><circle cx="468" cy="372" r="1" fill="#fff"/><circle cx="500" cy="20" r="1" fill="#fff"/><circle cx="500" cy="52" r="1" fill="#fff"/><circle cx="500" cy="84" r="1" fill="#fff"/><circle cx="500" cy="116" r="1" fill="#fff"/><circle cx="500" cy="148" r="1" fill="#fff"/><circle cx="500" cy="180" r="1" fill="#fff"/><circle cx="500" cy="212" r="1" fill="#fff"/><circle cx="500" cy="244" r="1" fill="#fff"/><circle cx="500" cy="276" r="1" fill="#fff"/><circle cx="500" cy="308" r="1" fill="#fff"/><circle cx="500" cy="340" r="1" fill="#fff"/><circle cx="500" cy="372" r="1" fill="#fff"/></g>
+<rect width="560" height="340" fill="url(#bg)" rx="18"/>
+<circle cx="28" cy="28" r="1.2" fill="#fff" opacity="0.05"/><circle cx="28" cy="64" r="1.2" fill="#fff" opacity="0.05"/><circle cx="28" cy="100" r="1.2" fill="#fff" opacity="0.05"/><circle cx="28" cy="136" r="1.2" fill="#fff" opacity="0.05"/><circle cx="28" cy="172" r="1.2" fill="#fff" opacity="0.05"/><circle cx="28" cy="208" r="1.2" fill="#fff" opacity="0.05"/><circle cx="28" cy="244" r="1.2" fill="#fff" opacity="0.05"/><circle cx="28" cy="280" r="1.2" fill="#fff" opacity="0.05"/><circle cx="28" cy="316" r="1.2" fill="#fff" opacity="0.05"/><circle cx="64" cy="28" r="1.2" fill="#fff" opacity="0.05"/><circle cx="64" cy="64" r="1.2" fill="#fff" opacity="0.05"/><circle cx="64" cy="100" r="1.2" fill="#fff" opacity="0.05"/><circle cx="64" cy="136" r="1.2" fill="#fff" opacity="0.05"/><circle cx="64" cy="172" r="1.2" fill="#fff" opacity="0.05"/><circle cx="64" cy="208" r="1.2" fill="#fff" opacity="0.05"/><circle cx="64" cy="244" r="1.2" fill="#fff" opacity="0.05"/><circle cx="64" cy="280" r="1.2" fill="#fff" opacity="0.05"/><circle cx="64" cy="316" r="1.2" fill="#fff" opacity="0.05"/><circle cx="100" cy="28" r="1.2" fill="#fff" opacity="0.05"/><circle cx="100" cy="64" r="1.2" fill="#fff" opacity="0.05"/><circle cx="100" cy="100" r="1.2" fill="#fff" opacity="0.05"/><circle cx="100" cy="136" r="1.2" fill="#fff" opacity="0.05"/><circle cx="100" cy="172" r="1.2" fill="#fff" opacity="0.05"/><circle cx="100" cy="208" r="1.2" fill="#fff" opacity="0.05"/><circle cx="100" cy="244" r="1.2" fill="#fff" opacity="0.05"/><circle cx="100" cy="280" r="1.2" fill="#fff" opacity="0.05"/><circle cx="100" cy="316" r="1.2" fill="#fff" opacity="0.05"/><circle cx="136" cy="28" r="1.2" fill="#fff" opacity="0.05"/><circle cx="136" cy="64" r="1.2" fill="#fff" opacity="0.05"/><circle cx="136" cy="100" r="1.2" fill="#fff" opacity="0.05"/><circle cx="136" cy="136" r="1.2" fill="#fff" opacity="0.05"/><circle cx="136" cy="172" r="1.2" fill="#fff" opacity="0.05"/><circle cx="136" cy="208" r="1.2" fill="#fff" opacity="0.05"/><circle cx="136" cy="244" r="1.2" fill="#fff" opacity="0.05"/><circle cx="136" cy="280" r="1.2" fill="#fff" opacity="0.05"/><circle cx="136" cy="316" r="1.2" fill="#fff" opacity="0.05"/><circle cx="172" cy="28" r="1.2" fill="#fff" opacity="0.05"/><circle cx="172" cy="64" r="1.2" fill="#fff" opacity="0.05"/><circle cx="172" cy="100" r="1.2" fill="#fff" opacity="0.05"/><circle cx="172" cy="136" r="1.2" fill="#fff" opacity="0.05"/><circle cx="172" cy="172" r="1.2" fill="#fff" opacity="0.05"/><circle cx="172" cy="208" r="1.2" fill="#fff" opacity="0.05"/><circle cx="172" cy="244" r="1.2" fill="#fff" opacity="0.05"/><circle cx="172" cy="280" r="1.2" fill="#fff" opacity="0.05"/><circle cx="172" cy="316" r="1.2" fill="#fff" opacity="0.05"/><circle cx="208" cy="28" r="1.2" fill="#fff" opacity="0.05"/><circle cx="208" cy="64" r="1.2" fill="#fff" opacity="0.05"/><circle cx="208" cy="100" r="1.2" fill="#fff" opacity="0.05"/><circle cx="208" cy="136" r="1.2" fill="#fff" opacity="0.05"/><circle cx="208" cy="172" r="1.2" fill="#fff" opacity="0.05"/><circle cx="208" cy="208" r="1.2" fill="#fff" opacity="0.05"/><circle cx="208" cy="244" r="1.2" fill="#fff" opacity="0.05"/><circle cx="208" cy="280" r="1.2" fill="#fff" opacity="0.05"/><circle cx="208" cy="316" r="1.2" fill="#fff" opacity="0.05"/><circle cx="244" cy="28" r="1.2" fill="#fff" opacity="0.05"/><circle cx="244" cy="64" r="1.2" fill="#fff" opacity="0.05"/><circle cx="244" cy="100" r="1.2" fill="#fff" opacity="0.05"/><circle cx="244" cy="136" r="1.2" fill="#fff" opacity="0.05"/><circle cx="244" cy="172" r="1.2" fill="#fff" opacity="0.05"/><circle cx="244" cy="208" r="1.2" fill="#fff" opacity="0.05"/><circle cx="244" cy="244" r="1.2" fill="#fff" opacity="0.05"/><circle cx="244" cy="280" r="1.2" fill="#fff" opacity="0.05"/><circle cx="244" cy="316" r="1.2" fill="#fff" opacity="0.05"/><circle cx="280" cy="28" r="1.2" fill="#fff" opacity="0.05"/><circle cx="280" cy="64" r="1.2" fill="#fff" opacity="0.05"/><circle cx="280" cy="100" r="1.2" fill="#fff" opacity="0.05"/><circle cx="280" cy="136" r="1.2" fill="#fff" opacity="0.05"/><circle cx="280" cy="172" r="1.2" fill="#fff" opacity="0.05"/><circle cx="280" cy="208" r="1.2" fill="#fff" opacity="0.05"/><circle cx="280" cy="244" r="1.2" fill="#fff" opacity="0.05"/><circle cx="280" cy="280" r="1.2" fill="#fff" opacity="0.05"/><circle cx="280" cy="316" r="1.2" fill="#fff" opacity="0.05"/><circle cx="316" cy="28" r="1.2" fill="#fff" opacity="0.05"/><circle cx="316" cy="64" r="1.2" fill="#fff" opacity="0.05"/><circle cx="316" cy="100" r="1.2" fill="#fff" opacity="0.05"/><circle cx="316" cy="136" r="1.2" fill="#fff" opacity="0.05"/><circle cx="316" cy="172" r="1.2" fill="#fff" opacity="0.05"/><circle cx="316" cy="208" r="1.2" fill="#fff" opacity="0.05"/><circle cx="316" cy="244" r="1.2" fill="#fff" opacity="0.05"/><circle cx="316" cy="280" r="1.2" fill="#fff" opacity="0.05"/><circle cx="316" cy="316" r="1.2" fill="#fff" opacity="0.05"/><circle cx="352" cy="28" r="1.2" fill="#fff" opacity="0.05"/><circle cx="352" cy="64" r="1.2" fill="#fff" opacity="0.05"/><circle cx="352" cy="100" r="1.2" fill="#fff" opacity="0.05"/><circle cx="352" cy="136" r="1.2" fill="#fff" opacity="0.05"/><circle cx="352" cy="172" r="1.2" fill="#fff" opacity="0.05"/><circle cx="352" cy="208" r="1.2" fill="#fff" opacity="0.05"/><circle cx="352" cy="244" r="1.2" fill="#fff" opacity="0.05"/><circle cx="352" cy="280" r="1.2" fill="#fff" opacity="0.05"/><circle cx="352" cy="316" r="1.2" fill="#fff" opacity="0.05"/><circle cx="388" cy="28" r="1.2" fill="#fff" opacity="0.05"/><circle cx="388" cy="64" r="1.2" fill="#fff" opacity="0.05"/><circle cx="388" cy="100" r="1.2" fill="#fff" opacity="0.05"/><circle cx="388" cy="136" r="1.2" fill="#fff" opacity="0.05"/><circle cx="388" cy="172" r="1.2" fill="#fff" opacity="0.05"/><circle cx="388" cy="208" r="1.2" fill="#fff" opacity="0.05"/><circle cx="388" cy="244" r="1.2" fill="#fff" opacity="0.05"/><circle cx="388" cy="280" r="1.2" fill="#fff" opacity="0.05"/><circle cx="388" cy="316" r="1.2" fill="#fff" opacity="0.05"/><circle cx="424" cy="28" r="1.2" fill="#fff" opacity="0.05"/><circle cx="424" cy="64" r="1.2" fill="#fff" opacity="0.05"/><circle cx="424" cy="100" r="1.2" fill="#fff" opacity="0.05"/><circle cx="424" cy="136" r="1.2" fill="#fff" opacity="0.05"/><circle cx="424" cy="172" r="1.2" fill="#fff" opacity="0.05"/><circle cx="424" cy="208" r="1.2" fill="#fff" opacity="0.05"/><circle cx="424" cy="244" r="1.2" fill="#fff" opacity="0.05"/><circle cx="424" cy="280" r="1.2" fill="#fff" opacity="0.05"/><circle cx="424" cy="316" r="1.2" fill="#fff" opacity="0.05"/><circle cx="460" cy="28" r="1.2" fill="#fff" opacity="0.05"/><circle cx="460" cy="64" r="1.2" fill="#fff" opacity="0.05"/><circle cx="460" cy="100" r="1.2" fill="#fff" opacity="0.05"/><circle cx="460" cy="136" r="1.2" fill="#fff" opacity="0.05"/><circle cx="460" cy="172" r="1.2" fill="#fff" opacity="0.05"/><circle cx="460" cy="208" r="1.2" fill="#fff" opacity="0.05"/><circle cx="460" cy="244" r="1.2" fill="#fff" opacity="0.05"/><circle cx="460" cy="280" r="1.2" fill="#fff" opacity="0.05"/><circle cx="460" cy="316" r="1.2" fill="#fff" opacity="0.05"/><circle cx="496" cy="28" r="1.2" fill="#fff" opacity="0.05"/><circle cx="496" cy="64" r="1.2" fill="#fff" opacity="0.05"/><circle cx="496" cy="100" r="1.2" fill="#fff" opacity="0.05"/><circle cx="496" cy="136" r="1.2" fill="#fff" opacity="0.05"/><circle cx="496" cy="172" r="1.2" fill="#fff" opacity="0.05"/><circle cx="496" cy="208" r="1.2" fill="#fff" opacity="0.05"/><circle cx="496" cy="244" r="1.2" fill="#fff" opacity="0.05"/><circle cx="496" cy="280" r="1.2" fill="#fff" opacity="0.05"/><circle cx="496" cy="316" r="1.2" fill="#fff" opacity="0.05"/><circle cx="532" cy="28" r="1.2" fill="#fff" opacity="0.05"/><circle cx="532" cy="64" r="1.2" fill="#fff" opacity="0.05"/><circle cx="532" cy="100" r="1.2" fill="#fff" opacity="0.05"/><circle cx="532" cy="136" r="1.2" fill="#fff" opacity="0.05"/><circle cx="532" cy="172" r="1.2" fill="#fff" opacity="0.05"/><circle cx="532" cy="208" r="1.2" fill="#fff" opacity="0.05"/><circle cx="532" cy="244" r="1.2" fill="#fff" opacity="0.05"/><circle cx="532" cy="280" r="1.2" fill="#fff" opacity="0.05"/><circle cx="532" cy="316" r="1.2" fill="#fff" opacity="0.05"/>
 <!-- Glow -->
-<ellipse cx="260" cy="190" rx="130" ry="140" fill="#10B981" opacity="0.06" filter="url(#glow2)"/>
-<!-- Phone shadow -->
-<ellipse cx="262" cy="358" rx="95" ry="10" fill="#000" opacity="0.4"/>
-<!-- Phone body -->
-<rect x="155" y="18" width="210" height="344" rx="34" fill="#0B1028" stroke="rgba(255,255,255,0.15)" stroke-width="2"/>
-<rect x="160" y="23" width="200" height="334" rx="30" fill="#06091A"/>
+<ellipse cx="280" cy="170" rx="150" ry="120" fill="#10B981" opacity="0.05"/>
+<!-- Left phone shadow -->
+<ellipse cx="186" cy="334" rx="80" ry="8" fill="#000" opacity="0.5"/>
+<!-- Left phone (iOS) -->
+<rect x="118" y="14" width="136" height="308" rx="28" fill="#0B1028" stroke="rgba(255,255,255,0.15)" stroke-width="2"/>
+<rect x="124" y="20" width="124" height="296" rx="24" fill="#06091A"/>
 <!-- Notch -->
-<rect x="220" y="26" width="80" height="20" rx="10" fill="#0B1028"/>
-<circle cx="272" cy="36" r="4" fill="#141A38"/>
-<circle cx="272" cy="36" r="2" fill="#1e2550"/>
+<rect x="158" y="23" width="56" height="16" rx="8" fill="#0B1028"/>
+<circle cx="196" cy="31" r="3" fill="#141A38"/>
 <!-- Status bar -->
-<text x="173" y="55" font-family="sans-serif" font-size="8" fill="#8896B8">9:41</text>
-<rect x="296" y="49" width="24" height="10" rx="3" fill="none" stroke="#8896B8" stroke-width="1.2"/>
-<rect x="297" y="50" width="18" height="8" rx="2" fill="#10B981"/>
+<text x="134" y="50" font-family="sans-serif" font-size="8" fill="#8896B8">9:41</text>
 <!-- App header -->
-<rect x="163" y="65" width="194" height="44" fill="url(#gm)" opacity="0.9"/>
-<text x="220" y="88" font-family="sans-serif" font-size="12" font-weight="700" fill="#fff">SwiftDeliver</text>
-<circle cx="340" cy="87" r="10" fill="rgba(255,255,255,0.2)"/>
-<text x="340" y="91" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#fff">👤</text>
-<!-- Map area -->
-<rect x="163" y="109" width="194" height="100" fill="#0d1530"/>
-<!-- Map roads -->
-<g stroke="#1e2a4a" stroke-width="6" stroke-linecap="round">
-  <line x1="163" y1="145" x2="357" y2="145"/>
-  <line x1="220" y1="109" x2="220" y2="209"/>
-  <line x1="300" y1="109" x2="300" y2="209"/>
-  <line x1="163" y1="175" x2="357" y2="175"/>
+<rect x="124" y="54" width="124" height="36" fill="url(#gm)"/>
+<text x="186" y="71" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="700" fill="#fff">SwiftDeliver</text>
+<text x="186" y="82" text-anchor="middle" font-family="sans-serif" font-size="7" fill="rgba(255,255,255,0.7)">Live Tracking</text>
+<!-- Map -->
+<rect x="124" y="90" width="124" height="90" fill="#0d1530"/>
+<!-- Road grid -->
+<g stroke="#1e2a4a" stroke-width="5" stroke-linecap="round">
+  <line x1="124" y1="122" x2="248" y2="122"/>
+  <line x1="166" y1="90" x2="166" y2="180"/>
+  <line x1="214" y1="90" x2="214" y2="180"/>
+  <line x1="124" y1="152" x2="248" y2="152"/>
 </g>
 <g stroke="#283562" stroke-width="2">
-  <line x1="163" y1="130" x2="357" y2="130"/>
-  <line x1="240" y1="109" x2="240" y2="209"/>
+  <line x1="124" y1="108" x2="248" y2="108"/>
+  <line x1="190" y1="90" x2="190" y2="180"/>
 </g>
-<!-- Route -->
-<polyline points="180,195 200,175 240,175 240,145 290,145 310,125 340,120" fill="none" stroke="#10B981" stroke-width="3" stroke-linecap="round"/>
-<!-- Start pin -->
-<circle cx="180" cy="195" r="6" fill="#3B7BFF" stroke="#fff" stroke-width="1.5"/>
-<!-- End pin -->
-<g transform="translate(336,112)">
-  <circle r="8" fill="#EC4899" stroke="#fff" stroke-width="1.5"/>
-  <text text-anchor="middle" y="4" font-family="sans-serif" font-size="8" fill="#fff">📍</text>
-</g>
-<!-- Live dot on route -->
-<circle r="5" fill="#10B981" stroke="#fff" stroke-width="1.5"><animateMotion dur="3s" repeatCount="indefinite" path="M 180,195 L 200,175 L 240,175 L 240,145 L 290,145 L 310,125 L 340,120"/></circle>
-<!-- Order cards -->
-<rect x="163" y="213" width="194" height="52" fill="#0d1530" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
-<rect x="170" y="220" width="180" height="38" rx="8" fill="rgba(16,185,129,0.08)" stroke="rgba(16,185,129,0.2)" stroke-width="1"/>
-<text x="180" y="236" font-family="sans-serif" font-size="9" font-weight="700" fill="#EEF2FF">Order #4821</text>
-<text x="180" y="248" font-family="sans-serif" font-size="8" fill="#8896B8">Raj Kumar · 2.4 km · ETA 8 min</text>
-<rect x="302" y="224" width="40" height="18" rx="9" fill="#10B981"/>
-<text x="322" y="237" text-anchor="middle" font-family="sans-serif" font-size="7" font-weight="700" fill="#fff">En Route</text>
-<!-- Stats row -->
-<rect x="163" y="265" width="194" height="60" fill="#0d1530"/>
-<g>
-  <rect x="170" y="272" width="56" height="46" rx="10" fill="rgba(59,123,255,0.1)" stroke="rgba(59,123,255,0.15)" stroke-width="1"/>
-  <text x="198" y="294" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="800" fill="#6A9FFF">47</text>
-  <text x="198" y="308" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#4B5982">Delivered</text>
-  <rect x="234" y="272" width="56" height="46" rx="10" fill="rgba(16,185,129,0.1)" stroke="rgba(16,185,129,0.15)" stroke-width="1"/>
-  <text x="262" y="294" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="800" fill="#34D399">4.9</text>
-  <text x="262" y="308" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#4B5982">Rating</text>
-  <rect x="298" y="272" width="52" height="46" rx="10" fill="rgba(245,158,11,0.1)" stroke="rgba(245,158,11,0.15)" stroke-width="1"/>
-  <text x="324" y="294" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="800" fill="#FCD34D">₹842</text>
-  <text x="324" y="308" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#4B5982">Earned</text>
-</g>
+<!-- GPS route -->
+<polyline points="136,168 150,152 166,152 166,122 206,122 220,108 238,104" fill="none" stroke="#10B981" stroke-width="2.5" stroke-linecap="round"/>
+<!-- Start dot -->
+<circle cx="136" cy="168" r="5" fill="#3B7BFF" stroke="#fff" stroke-width="1.5"/>
+<!-- Destination pin -->
+<circle cx="238" cy="104" r="7" fill="#EC4899" stroke="#fff" stroke-width="1.5"/>
+<line x1="238" y1="97" x2="238" y2="90" stroke="#EC4899" stroke-width="1.5"/>
+<!-- Live vehicle on route -->
+<circle r="4.5" fill="#10B981" stroke="#fff" stroke-width="1.5"><animateMotion dur="3s" repeatCount="indefinite" path="M136,168 L150,152 L166,152 L166,122 L206,122 L220,108 L238,104"/></circle>
+<!-- Order card -->
+<rect x="128" y="184" width="116" height="38" rx="8" fill="rgba(16,185,129,0.1)" stroke="rgba(16,185,129,0.2)" stroke-width="1"/>
+<text x="136" y="198" font-family="sans-serif" font-size="8" font-weight="700" fill="#EEF2FF">Order #4821</text>
+<text x="136" y="210" font-family="sans-serif" font-size="7" fill="#8896B8">ETA 8 min · 2.4 km</text>
+<rect x="200" y="188" width="36" height="14" rx="7" fill="#10B981"/>
+<text x="218" y="199" text-anchor="middle" font-family="sans-serif" font-size="7" font-weight="700" fill="#fff">Live</text>
+<!-- Stats -->
+<rect x="128" y="226" width="36" height="34" rx="8" fill="rgba(59,123,255,0.12)" stroke="rgba(59,123,255,0.2)" stroke-width="1"/>
+<text x="146" y="240" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="800" fill="#6A9FFF">47</text>
+<text x="146" y="252" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#4B5982">Orders</text>
+<rect x="170" y="226" width="36" height="34" rx="8" fill="rgba(16,185,129,0.12)" stroke="rgba(16,185,129,0.2)" stroke-width="1"/>
+<text x="188" y="240" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="800" fill="#34D399">4.9</text>
+<text x="188" y="252" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#4B5982">Rating</text>
+<rect x="212" y="226" width="36" height="34" rx="8" fill="rgba(245,158,11,0.12)" stroke="rgba(245,158,11,0.2)" stroke-width="1"/>
+<text x="230" y="240" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="800" fill="#FCD34D">842</text>
+<text x="230" y="252" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#4B5982">Earned</text>
 <!-- Bottom nav -->
-<rect x="163" y="325" width="194" height="38" fill="#0d1530" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
-<g fill="#4B5982" font-family="sans-serif" font-size="8" text-anchor="middle">
-  <text x="200" y="340">🗺</text><text x="200" y="352">Map</text>
-  <text x="240" y="340">📦</text><text x="240" y="352">Orders</text>
-  <text x="280" y="340" fill="#10B981">💬</text><text x="280" y="352" fill="#10B981">Chat</text>
-  <text x="320" y="340">👤</text><text x="320" y="352">Profile</text>
-</g>
-<!-- Home indicator -->
-<rect x="230" y="357" width="60" height="3" rx="2" fill="rgba(255,255,255,0.3)"/>
+<rect x="124" y="264" width="124" height="36" fill="#0d1530" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+<!-- Nav icons using paths -->
+<!-- Map icon -->
+<path d="M146,276 L142,284 L150,280 L158,284 L154,276 Z" fill="none" stroke="#4B5982" stroke-width="1.2"/>
+<text x="150" y="294" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#4B5982">Map</text>
+<!-- Orders icon -->
+<rect x="172" y="275" width="12" height="14" rx="2" fill="none" stroke="#10B981" stroke-width="1.2"/>
+<line x1="174" y1="279" x2="182" y2="279" stroke="#10B981" stroke-width="1"/>
+<line x1="174" y1="282" x2="182" y2="282" stroke="#10B981" stroke-width="1"/>
+<text x="178" y="294" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#10B981">Orders</text>
+<!-- Chat icon -->
+<path d="M200,275 Q200,272 206,272 L212,272 Q218,272 218,275 L218,281 Q218,284 212,284 L207,284 L204,287 L204,284 Q200,284 200,281 Z" fill="none" stroke="#4B5982" stroke-width="1.2"/>
+<text x="209" y="294" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#4B5982">Chat</text>
+<!-- Profile icon -->
+<circle cx="232" cy="278" r="4" fill="none" stroke="#4B5982" stroke-width="1.2"/>
+<path d="M226,285 Q232,282 238,285" fill="none" stroke="#4B5982" stroke-width="1.2" stroke-linecap="round"/>
+<text x="232" y="294" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#4B5982">Profile</text>
+<!-- Home bar -->
+<rect x="162" y="300" width="48" height="3" rx="2" fill="rgba(255,255,255,0.25)"/>
+<!-- Right info panel -->
+<rect x="280" y="40" width="248" height="262" rx="16" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
 <!-- Platform badges -->
-<rect x="60" y="130" width="78" height="26" rx="13" fill="rgba(0,0,0,0.5)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
-<text x="99" y="148" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#8896B8">🍎 iOS</text>
-<rect x="60" y="165" width="78" height="26" rx="13" fill="rgba(0,0,0,0.5)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
-<text x="99" y="183" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#8896B8">🤖 Android</text>
-<rect x="60" y="200" width="78" height="26" rx="13" fill="rgba(0,0,0,0.5)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
-<text x="99" y="218" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#8896B8">⚛️ React Native</text>
-<!-- Rating stars right side -->
-<g transform="translate(388,140)">
-  <text x="0" y="0" font-family="sans-serif" font-size="11" fill="#FBBF24">★★★★★</text>
-  <text x="0" y="16" font-family="sans-serif" font-size="9" fill="#8896B8">4.8 App Store</text>
-  <text x="0" y="32" font-family="sans-serif" font-size="9" fill="#4B5982">200K+ downloads</text>
+<text x="404" y="68" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="800" fill="#EEF2FF">Cross-Platform Excellence</text>
+<rect x="296" y="80" width="104" height="30" rx="10" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+<!-- Apple icon (simplified) -->
+<path d="M313,90 Q313,86 317,86 Q319,83 323,84 Q321,87 322,90 Q319,93 313,90Z" fill="#8896B8"/>
+<text x="336" y="99" font-family="sans-serif" font-size="10" fill="#8896B8">iOS (Swift)</text>
+<rect x="410" y="80" width="110" height="30" rx="10" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+<!-- Android icon -->
+<path d="M424,93 L428,87 L436,87 L440,93" fill="none" stroke="#8896B8" stroke-width="1.5"/>
+<line x1="426" y1="93" x2="426" y2="98" stroke="#8896B8" stroke-width="1.5"/>
+<line x1="438" y1="93" x2="438" y2="98" stroke="#8896B8" stroke-width="1.5"/>
+<rect x="426" y="93" width="12" height="10" rx="2" fill="none" stroke="#8896B8" stroke-width="1.5"/>
+<text x="452" y="99" font-family="sans-serif" font-size="10" fill="#8896B8">Android</text>
+<rect x="296" y="118" width="104" height="30" rx="10" fill="rgba(59,123,255,0.1)" stroke="rgba(59,123,255,0.2)" stroke-width="1"/>
+<!-- React icon -->
+<ellipse cx="318" cy="133" rx="10" ry="5" fill="none" stroke="#6A9FFF" stroke-width="1.5" transform="rotate(30,318,133)"/>
+<ellipse cx="318" cy="133" rx="10" ry="5" fill="none" stroke="#6A9FFF" stroke-width="1.5" transform="rotate(-30,318,133)"/>
+<circle cx="318" cy="133" r="2" fill="#6A9FFF"/>
+<text x="348" y="137" font-family="sans-serif" font-size="10" fill="#6A9FFF">React Native</text>
+<rect x="410" y="118" width="110" height="30" rx="10" fill="rgba(34,211,238,0.1)" stroke="rgba(34,211,238,0.2)" stroke-width="1"/>
+<!-- Flutter icon (simplified diamond) -->
+<path d="M428,133 L433,126 L438,133 L433,140 Z" fill="none" stroke="#67E8F9" stroke-width="1.5"/>
+<path d="M430,136 L438,128" stroke="#67E8F9" stroke-width="1.5" stroke-linecap="round"/>
+<text x="455" y="137" font-family="sans-serif" font-size="10" fill="#67E8F9">Flutter</text>
+<!-- Metrics -->
+<rect x="296" y="160" width="224" height="70" rx="12" fill="rgba(16,185,129,0.06)" stroke="rgba(16,185,129,0.15)" stroke-width="1"/>
+<text x="408" y="180" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="700" fill="#EEF2FF">SwiftDeliver Results</text>
+<text x="330" y="200" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="800" fill="#34D399">4.8</text>
+<text x="330" y="214" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#4B5982">App Store</text>
+<text x="408" y="200" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="800" fill="#6A9FFF">200K</text>
+<text x="408" y="214" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#4B5982">Downloads</text>
+<text x="486" y="200" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="800" fill="#FCD34D">50K</text>
+<text x="486" y="214" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#4B5982">Daily Users</text>
+<!-- Features list -->
+<g font-family="sans-serif" font-size="9">
+  <line x1="308" y1="245" x2="312" y2="249" stroke="#10B981" stroke-width="1.5"/><line x1="312" y1="249" x2="318" y2="242" stroke="#10B981" stroke-width="1.5"/>
+  <text x="326" y="249" fill="#8896B8">Real-time GPS tracking</text>
+  <line x1="308" y1="262" x2="312" y2="266" stroke="#10B981" stroke-width="1.5"/><line x1="312" y1="266" x2="318" y2="259" stroke="#10B981" stroke-width="1.5"/>
+  <text x="326" y="266" fill="#8896B8">Offline-first architecture</text>
+  <line x1="308" y1="279" x2="312" y2="283" stroke="#10B981" stroke-width="1.5"/><line x1="312" y1="283" x2="318" y2="276" stroke="#10B981" stroke-width="1.5"/>
+  <text x="326" y="283" fill="#8896B8">Push notifications + CI/CD</text>
 </g>
-<text x="260" y="373" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#6A9FFF">iOS & Android · React Native · Flutter · Real-time GPS</text>
+<text x="280" y="326" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#6A9FFF">iOS · Android · React Native · Flutter — Consumer-Grade UX</text>
 </svg>

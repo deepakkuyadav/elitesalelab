@@ -1,80 +1,89 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 380">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 340">
 <defs>
   <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#06091A"/><stop offset="100%" style="stop-color:#0B1028"/></linearGradient>
   <linearGradient id="gc" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#22D3EE"/><stop offset="100%" style="stop-color:#3B7BFF"/></linearGradient>
 </defs>
-<rect width="520" height="380" fill="url(#bg)" rx="20"/>
-<g opacity="0.05"><circle cx="20" cy="20" r="1" fill="#fff"/><circle cx="20" cy="52" r="1" fill="#fff"/><circle cx="20" cy="84" r="1" fill="#fff"/><circle cx="20" cy="116" r="1" fill="#fff"/><circle cx="20" cy="148" r="1" fill="#fff"/><circle cx="20" cy="180" r="1" fill="#fff"/><circle cx="20" cy="212" r="1" fill="#fff"/><circle cx="20" cy="244" r="1" fill="#fff"/><circle cx="20" cy="276" r="1" fill="#fff"/><circle cx="20" cy="308" r="1" fill="#fff"/><circle cx="20" cy="340" r="1" fill="#fff"/><circle cx="20" cy="372" r="1" fill="#fff"/><circle cx="52" cy="20" r="1" fill="#fff"/><circle cx="52" cy="52" r="1" fill="#fff"/><circle cx="52" cy="84" r="1" fill="#fff"/><circle cx="52" cy="116" r="1" fill="#fff"/><circle cx="52" cy="148" r="1" fill="#fff"/><circle cx="52" cy="180" r="1" fill="#fff"/><circle cx="52" cy="212" r="1" fill="#fff"/><circle cx="52" cy="244" r="1" fill="#fff"/><circle cx="52" cy="276" r="1" fill="#fff"/><circle cx="52" cy="308" r="1" fill="#fff"/><circle cx="52" cy="340" r="1" fill="#fff"/><circle cx="52" cy="372" r="1" fill="#fff"/><circle cx="84" cy="20" r="1" fill="#fff"/><circle cx="84" cy="52" r="1" fill="#fff"/><circle cx="84" cy="84" r="1" fill="#fff"/><circle cx="84" cy="116" r="1" fill="#fff"/><circle cx="84" cy="148" r="1" fill="#fff"/><circle cx="84" cy="180" r="1" fill="#fff"/><circle cx="84" cy="212" r="1" fill="#fff"/><circle cx="84" cy="244" r="1" fill="#fff"/><circle cx="84" cy="276" r="1" fill="#fff"/><circle cx="84" cy="308" r="1" fill="#fff"/><circle cx="84" cy="340" r="1" fill="#fff"/><circle cx="84" cy="372" r="1" fill="#fff"/><circle cx="116" cy="20" r="1" fill="#fff"/><circle cx="116" cy="52" r="1" fill="#fff"/><circle cx="116" cy="84" r="1" fill="#fff"/><circle cx="116" cy="116" r="1" fill="#fff"/><circle cx="116" cy="148" r="1" fill="#fff"/><circle cx="116" cy="180" r="1" fill="#fff"/><circle cx="116" cy="212" r="1" fill="#fff"/><circle cx="116" cy="244" r="1" fill="#fff"/><circle cx="116" cy="276" r="1" fill="#fff"/><circle cx="116" cy="308" r="1" fill="#fff"/><circle cx="116" cy="340" r="1" fill="#fff"/><circle cx="116" cy="372" r="1" fill="#fff"/><circle cx="148" cy="20" r="1" fill="#fff"/><circle cx="148" cy="52" r="1" fill="#fff"/><circle cx="148" cy="84" r="1" fill="#fff"/><circle cx="148" cy="116" r="1" fill="#fff"/><circle cx="148" cy="148" r="1" fill="#fff"/><circle cx="148" cy="180" r="1" fill="#fff"/><circle cx="148" cy="212" r="1" fill="#fff"/><circle cx="148" cy="244" r="1" fill="#fff"/><circle cx="148" cy="276" r="1" fill="#fff"/><circle cx="148" cy="308" r="1" fill="#fff"/><circle cx="148" cy="340" r="1" fill="#fff"/><circle cx="148" cy="372" r="1" fill="#fff"/><circle cx="180" cy="20" r="1" fill="#fff"/><circle cx="180" cy="52" r="1" fill="#fff"/><circle cx="180" cy="84" r="1" fill="#fff"/><circle cx="180" cy="116" r="1" fill="#fff"/><circle cx="180" cy="148" r="1" fill="#fff"/><circle cx="180" cy="180" r="1" fill="#fff"/><circle cx="180" cy="212" r="1" fill="#fff"/><circle cx="180" cy="244" r="1" fill="#fff"/><circle cx="180" cy="276" r="1" fill="#fff"/><circle cx="180" cy="308" r="1" fill="#fff"/><circle cx="180" cy="340" r="1" fill="#fff"/><circle cx="180" cy="372" r="1" fill="#fff"/><circle cx="212" cy="20" r="1" fill="#fff"/><circle cx="212" cy="52" r="1" fill="#fff"/><circle cx="212" cy="84" r="1" fill="#fff"/><circle cx="212" cy="116" r="1" fill="#fff"/><circle cx="212" cy="148" r="1" fill="#fff"/><circle cx="212" cy="180" r="1" fill="#fff"/><circle cx="212" cy="212" r="1" fill="#fff"/><circle cx="212" cy="244" r="1" fill="#fff"/><circle cx="212" cy="276" r="1" fill="#fff"/><circle cx="212" cy="308" r="1" fill="#fff"/><circle cx="212" cy="340" r="1" fill="#fff"/><circle cx="212" cy="372" r="1" fill="#fff"/><circle cx="244" cy="20" r="1" fill="#fff"/><circle cx="244" cy="52" r="1" fill="#fff"/><circle cx="244" cy="84" r="1" fill="#fff"/><circle cx="244" cy="116" r="1" fill="#fff"/><circle cx="244" cy="148" r="1" fill="#fff"/><circle cx="244" cy="180" r="1" fill="#fff"/><circle cx="244" cy="212" r="1" fill="#fff"/><circle cx="244" cy="244" r="1" fill="#fff"/><circle cx="244" cy="276" r="1" fill="#fff"/><circle cx="244" cy="308" r="1" fill="#fff"/><circle cx="244" cy="340" r="1" fill="#fff"/><circle cx="244" cy="372" r="1" fill="#fff"/><circle cx="276" cy="20" r="1" fill="#fff"/><circle cx="276" cy="52" r="1" fill="#fff"/><circle cx="276" cy="84" r="1" fill="#fff"/><circle cx="276" cy="116" r="1" fill="#fff"/><circle cx="276" cy="148" r="1" fill="#fff"/><circle cx="276" cy="180" r="1" fill="#fff"/><circle cx="276" cy="212" r="1" fill="#fff"/><circle cx="276" cy="244" r="1" fill="#fff"/><circle cx="276" cy="276" r="1" fill="#fff"/><circle cx="276" cy="308" r="1" fill="#fff"/><circle cx="276" cy="340" r="1" fill="#fff"/><circle cx="276" cy="372" r="1" fill="#fff"/><circle cx="308" cy="20" r="1" fill="#fff"/><circle cx="308" cy="52" r="1" fill="#fff"/><circle cx="308" cy="84" r="1" fill="#fff"/><circle cx="308" cy="116" r="1" fill="#fff"/><circle cx="308" cy="148" r="1" fill="#fff"/><circle cx="308" cy="180" r="1" fill="#fff"/><circle cx="308" cy="212" r="1" fill="#fff"/><circle cx="308" cy="244" r="1" fill="#fff"/><circle cx="308" cy="276" r="1" fill="#fff"/><circle cx="308" cy="308" r="1" fill="#fff"/><circle cx="308" cy="340" r="1" fill="#fff"/><circle cx="308" cy="372" r="1" fill="#fff"/><circle cx="340" cy="20" r="1" fill="#fff"/><circle cx="340" cy="52" r="1" fill="#fff"/><circle cx="340" cy="84" r="1" fill="#fff"/><circle cx="340" cy="116" r="1" fill="#fff"/><circle cx="340" cy="148" r="1" fill="#fff"/><circle cx="340" cy="180" r="1" fill="#fff"/><circle cx="340" cy="212" r="1" fill="#fff"/><circle cx="340" cy="244" r="1" fill="#fff"/><circle cx="340" cy="276" r="1" fill="#fff"/><circle cx="340" cy="308" r="1" fill="#fff"/><circle cx="340" cy="340" r="1" fill="#fff"/><circle cx="340" cy="372" r="1" fill="#fff"/><circle cx="372" cy="20" r="1" fill="#fff"/><circle cx="372" cy="52" r="1" fill="#fff"/><circle cx="372" cy="84" r="1" fill="#fff"/><circle cx="372" cy="116" r="1" fill="#fff"/><circle cx="372" cy="148" r="1" fill="#fff"/><circle cx="372" cy="180" r="1" fill="#fff"/><circle cx="372" cy="212" r="1" fill="#fff"/><circle cx="372" cy="244" r="1" fill="#fff"/><circle cx="372" cy="276" r="1" fill="#fff"/><circle cx="372" cy="308" r="1" fill="#fff"/><circle cx="372" cy="340" r="1" fill="#fff"/><circle cx="372" cy="372" r="1" fill="#fff"/><circle cx="404" cy="20" r="1" fill="#fff"/><circle cx="404" cy="52" r="1" fill="#fff"/><circle cx="404" cy="84" r="1" fill="#fff"/><circle cx="404" cy="116" r="1" fill="#fff"/><circle cx="404" cy="148" r="1" fill="#fff"/><circle cx="404" cy="180" r="1" fill="#fff"/><circle cx="404" cy="212" r="1" fill="#fff"/><circle cx="404" cy="244" r="1" fill="#fff"/><circle cx="404" cy="276" r="1" fill="#fff"/><circle cx="404" cy="308" r="1" fill="#fff"/><circle cx="404" cy="340" r="1" fill="#fff"/><circle cx="404" cy="372" r="1" fill="#fff"/><circle cx="436" cy="20" r="1" fill="#fff"/><circle cx="436" cy="52" r="1" fill="#fff"/><circle cx="436" cy="84" r="1" fill="#fff"/><circle cx="436" cy="116" r="1" fill="#fff"/><circle cx="436" cy="148" r="1" fill="#fff"/><circle cx="436" cy="180" r="1" fill="#fff"/><circle cx="436" cy="212" r="1" fill="#fff"/><circle cx="436" cy="244" r="1" fill="#fff"/><circle cx="436" cy="276" r="1" fill="#fff"/><circle cx="436" cy="308" r="1" fill="#fff"/><circle cx="436" cy="340" r="1" fill="#fff"/><circle cx="436" cy="372" r="1" fill="#fff"/><circle cx="468" cy="20" r="1" fill="#fff"/><circle cx="468" cy="52" r="1" fill="#fff"/><circle cx="468" cy="84" r="1" fill="#fff"/><circle cx="468" cy="116" r="1" fill="#fff"/><circle cx="468" cy="148" r="1" fill="#fff"/><circle cx="468" cy="180" r="1" fill="#fff"/><circle cx="468" cy="212" r="1" fill="#fff"/><circle cx="468" cy="244" r="1" fill="#fff"/><circle cx="468" cy="276" r="1" fill="#fff"/><circle cx="468" cy="308" r="1" fill="#fff"/><circle cx="468" cy="340" r="1" fill="#fff"/><circle cx="468" cy="372" r="1" fill="#fff"/><circle cx="500" cy="20" r="1" fill="#fff"/><circle cx="500" cy="52" r="1" fill="#fff"/><circle cx="500" cy="84" r="1" fill="#fff"/><circle cx="500" cy="116" r="1" fill="#fff"/><circle cx="500" cy="148" r="1" fill="#fff"/><circle cx="500" cy="180" r="1" fill="#fff"/><circle cx="500" cy="212" r="1" fill="#fff"/><circle cx="500" cy="244" r="1" fill="#fff"/><circle cx="500" cy="276" r="1" fill="#fff"/><circle cx="500" cy="308" r="1" fill="#fff"/><circle cx="500" cy="340" r="1" fill="#fff"/><circle cx="500" cy="372" r="1" fill="#fff"/></g>
+<rect width="560" height="340" fill="url(#bg)" rx="18"/>
 <!-- Browser window -->
-<rect x="40" y="30" width="440" height="300" rx="16" fill="#101530" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
-<!-- Browser chrome -->
-<rect x="40" y="30" width="440" height="46" rx="16" fill="#141A38"/>
-<rect x="40" y="60" width="440" height="16" rx="0" fill="#141A38"/>
+<rect x="28" y="24" width="504" height="294" rx="16" fill="#101530" stroke="rgba(255,255,255,0.09)" stroke-width="1.5"/>
+<!-- Browser top bar -->
+<rect x="28" y="24" width="504" height="44" rx="16" fill="#141A38"/>
+<rect x="28" y="52" width="504" height="16" fill="#141A38"/>
 <!-- Traffic lights -->
-<circle cx="72" cy="53" r="6" fill="#FF5F57"/><circle cx="92" cy="53" r="6" fill="#FFBD2E"/><circle cx="112" cy="53" r="6" fill="#27C840"/>
+<circle cx="60" cy="46" r="6" fill="#FF5F57"/><circle cx="80" cy="46" r="6" fill="#FFBD2E"/><circle cx="100" cy="46" r="6" fill="#27C840"/>
 <!-- URL bar -->
-<rect x="132" y="43" width="280" height="20" rx="10" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
-<circle cx="148" cy="53" r="4" fill="none" stroke="#10B981" stroke-width="1.5"/>
-<text x="158" y="57" font-family="sans-serif" font-size="9" fill="#4B5982">https://</text>
-<text x="190" y="57" font-family="sans-serif" font-size="9" fill="#6A9FFF">elitesaleslab.com</text>
-<!-- Code editor inside browser -->
-<rect x="52" y="90" width="200" height="228" rx="8" fill="#0B1028" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+<rect x="128" y="35" width="320" height="22" rx="11" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+<!-- Lock icon -->
+<rect x="138" y="41" width="6" height="7" rx="1" fill="none" stroke="#10B981" stroke-width="1.2"/>
+<rect x="137" y="44" width="8" height="5" rx="1" fill="#10B981" opacity="0.7"/>
+<text x="154" y="50" font-family="monospace" font-size="9" fill="#4B5982">https://</text>
+<text x="193" y="50" font-family="monospace" font-size="9" fill="#6A9FFF">elitesaleslab.com</text>
+<!-- Refresh icon -->
+<path d="M458,40 a8,8 0 1,1 -5,14" fill="none" stroke="#4B5982" stroke-width="1.5" stroke-linecap="round"/>
+<polyline points="453,54 453,58 457,54" fill="none" stroke="#4B5982" stroke-width="1.5" stroke-linecap="round"/>
+<!-- Split: Code left | Preview right -->
+<!-- Code panel -->
+<rect x="36" y="72" width="232" height="238" rx="10" fill="#0B1028" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
 <!-- Line numbers -->
+<rect x="36" y="72" width="26" height="238" rx="0" fill="rgba(255,255,255,0.02)"/>
 <g fill="#4B5982" font-family="monospace" font-size="9">
-  <text x="64" y="112">1</text><text x="64" y="128">2</text><text x="64" y="144">3</text><text x="64" y="160">4</text>
-  <text x="64" y="176">5</text><text x="64" y="192">6</text><text x="64" y="208">7</text><text x="64" y="224">8</text>
-  <text x="64" y="240">9</text><text x="64" y="256">10</text><text x="64" y="272">11</text><text x="64" y="288">12</text>
+  <text x="49" y="92">1</text><text x="49" y="108">2</text><text x="49" y="124">3</text><text x="49" y="140">4</text>
+  <text x="49" y="156">5</text><text x="49" y="172">6</text><text x="49" y="188">7</text><text x="49" y="204">8</text>
+  <text x="49" y="220">9</text><text x="49" y="236">10</text><text x="49" y="252">11</text><text x="49" y="268">12</text><text x="49" y="284">13</text>
 </g>
-<!-- Code lines -->
+<!-- Code content -->
 <g font-family="monospace" font-size="9">
-  <text x="80" y="112" fill="#EC4899">&lt;section</text><text x="122" y="112" fill="#22D3EE"> class</text><text x="153" y="112" fill="#fff">="hero"&gt;</text>
-  <text x="88" y="128" fill="#EC4899">&lt;div</text><text x="111" y="128" fill="#22D3EE"> class</text><text x="141" y="128" fill="#fff">="cn"&gt;</text>
-  <text x="96" y="144" fill="#EC4899">&lt;h1</text><text x="116" y="144" fill="#22D3EE"> class</text><text x="147" y="144" fill="#fff">="hero-t"&gt;</text>
-  <text x="104" y="160" fill="#F59E0B">Build. Scale.</text>
-  <text x="96" y="176" fill="#EC4899">&lt;/h1&gt;</text>
-  <text x="96" y="192" fill="#EC4899">&lt;p</text><text x="107" y="192" fill="#22D3EE"> class</text><text x="138" y="192" fill="#fff">="sub"&gt;</text>
-  <text x="104" y="208" fill="#10B981">Enterprise software</text>
-  <text x="104" y="224" fill="#10B981">for modern teams</text>
-  <text x="96" y="240" fill="#EC4899">&lt;/p&gt;</text>
-  <text x="96" y="256" fill="#EC4899">&lt;a</text><text x="107" y="256" fill="#22D3EE"> href</text><text x="131" y="256" fill="#fff">="/contact"</text>
-  <text x="104" y="272" fill="#22D3EE">class</text><text x="131" y="272" fill="#fff">="btn-p"&gt;</text>
-  <text x="88" y="288" fill="#EC4899">&lt;/div&gt;</text>
+  <text x="70" y="92"><tspan fill="#EC4899">&lt;section</tspan><tspan fill="#22D3EE"> class</tspan><tspan fill="#fff">="hero"&gt;</tspan></text>
+  <text x="78" y="108"><tspan fill="#EC4899">&lt;div</tspan><tspan fill="#22D3EE"> class</tspan><tspan fill="#fff">="cn"&gt;</tspan></text>
+  <text x="86" y="124"><tspan fill="#EC4899">&lt;h1</tspan><tspan fill="#22D3EE"> class</tspan><tspan fill="#fff">="t1"&gt;</tspan></text>
+  <text x="94" y="140" fill="#F59E0B">Build. Scale. Deliver.</text>
+  <text x="86" y="156" fill="#EC4899">&lt;/h1&gt;</text>
+  <text x="86" y="172"><tspan fill="#EC4899">&lt;p</tspan><tspan fill="#22D3EE"> class</tspan><tspan fill="#fff">="sub"&gt;</tspan></text>
+  <text x="94" y="188" fill="#10B981">Enterprise software</text>
+  <text x="94" y="204" fill="#10B981">for modern teams.</text>
+  <text x="86" y="220" fill="#EC4899">&lt;/p&gt;</text>
+  <text x="86" y="236"><tspan fill="#EC4899">&lt;a</tspan><tspan fill="#22D3EE"> href</tspan><tspan fill="#fff">="/contact"</tspan></text>
+  <text x="94" y="252"><tspan fill="#22D3EE">class</tspan><tspan fill="#fff">="btn-p"&gt;</tspan></text>
+  <text x="94" y="268" fill="#F59E0B">Get Started</text>
+  <text x="86" y="284" fill="#EC4899">&lt;/a&gt;</text>
 </g>
-<!-- Cursor blink -->
-<rect x="80" y="296" width="7" height="10" fill="#6A9FFF" rx="1"><animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/></rect>
-<!-- Preview panel -->
-<rect x="264" y="90" width="204" height="228" rx="8" fill="#06091A" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
-<!-- Preview content -->
-<rect x="278" y="106" width="176" height="50" rx="8" fill="linear-gradient(135deg,#3B7BFF,#8B5CF6)"/>
-<rect x="278" y="106" width="176" height="50" rx="8" fill="url(#gc)" opacity="0.15" stroke="#3B7BFF" stroke-width="1"/>
-<text x="366" y="128" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#EEF2FF">Build. Scale.</text>
-<text x="366" y="144" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#8896B8">Enterprise software for modern teams</text>
-<rect x="290" y="164" width="80" height="18" rx="9" fill="#3B7BFF"/>
-<text x="330" y="177" text-anchor="middle" font-family="sans-serif" font-size="8" font-weight="600" fill="#fff">Get Started →</text>
-<rect x="382" y="164" width="66" height="18" rx="9" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
-<text x="415" y="177" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#8896B8">View Work</text>
-<!-- Cards -->
-<rect x="278" y="192" width="58" height="58" rx="10" fill="rgba(59,123,255,0.1)" stroke="rgba(59,123,255,0.2)" stroke-width="1"/>
-<text x="307" y="228" text-anchor="middle" font-family="sans-serif" font-size="18">🚀</text>
-<rect x="344" y="192" width="58" height="58" rx="10" fill="rgba(139,92,246,0.1)" stroke="rgba(139,92,246,0.2)" stroke-width="1"/>
-<text x="373" y="228" text-anchor="middle" font-family="sans-serif" font-size="18">⚡</text>
-<rect x="410" y="192" width="46" height="58" rx="10" fill="rgba(16,185,129,0.1)" stroke="rgba(16,185,129,0.2)" stroke-width="1"/>
-<text x="433" y="228" text-anchor="middle" font-family="sans-serif" font-size="18">🔒</text>
-<!-- Tech stack bar -->
-<g>
-  <rect x="278" y="262" width="176" height="26" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
-  <text x="294" y="279" font-family="sans-serif" font-size="8" fill="#22D3EE">React</text>
-  <text x="326" y="279" font-family="sans-serif" font-size="8" fill="#F59E0B">Vue</text>
-  <text x="352" y="279" font-family="sans-serif" font-size="8" fill="#EC4899">Laravel</text>
-  <text x="395" y="279" font-family="sans-serif" font-size="8" fill="#10B981">Node.js</text>
-  <text x="435" y="279" font-family="sans-serif" font-size="8" fill="#8B5CF6">Next</text>
-</g>
+<!-- Blinking cursor -->
+<rect x="70" y="290" width="7" height="10" fill="#6A9FFF" rx="1"><animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/></rect>
 <!-- Divider -->
-<line x1="254" y1="90" x2="254" y2="318" stroke="rgba(255,255,255,0.06)" stroke-width="1" stroke-dasharray="4,4"/>
-<text x="254" y="340" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#4B5982">CODE</text>
-<text x="366" y="340" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#4B5982">PREVIEW</text>
-<!-- Bottom bar -->
-<rect x="40" y="318" width="440" height="12" rx="0" fill="#141A38"/>
-<rect x="40" y="322" width="440" height="8" rx="0" fill="#141A38"/>
-<text x="260" y="362" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#6A9FFF">Full-Stack Web Development · React · Laravel · Node.js</text>
+<line x1="274" y1="72" x2="274" y2="310" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+<!-- Preview panel -->
+<rect x="280" y="72" width="244" height="238" rx="10" fill="#06091A" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+<!-- Preview hero block -->
+<rect x="290" y="83" width="224" height="72" rx="10" fill="rgba(59,123,255,0.12)" stroke="rgba(59,123,255,0.25)" stroke-width="1"/>
+<text x="402" y="113" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="800" fill="#EEF2FF">Build. Scale. Deliver.</text>
+<text x="402" y="130" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#8896B8">Enterprise software for modern teams.</text>
+<text x="402" y="146" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#4B5982">Powered by AI · Cloud-native · Globally trusted</text>
+<!-- Buttons -->
+<rect x="300" y="162" width="90" height="20" rx="10" fill="#3B7BFF"/>
+<text x="345" y="176" text-anchor="middle" font-family="sans-serif" font-size="9" font-weight="600" fill="#fff">Get Started</text>
+<rect x="400" y="162" width="74" height="20" rx="10" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+<text x="437" y="176" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#8896B8">View Work</text>
+<!-- Service cards -->
+<rect x="290" y="192" width="68" height="60" rx="10" fill="rgba(59,123,255,0.1)" stroke="rgba(59,123,255,0.2)" stroke-width="1"/>
+<circle cx="324" cy="212" r="8" fill="rgba(59,123,255,0.3)"/>
+<text x="324" y="215" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#6A9FFF">AI</text>
+<text x="324" y="242" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#4B5982">Automation</text>
+<rect x="368" y="192" width="68" height="60" rx="10" fill="rgba(139,92,246,0.1)" stroke="rgba(139,92,246,0.2)" stroke-width="1"/>
+<circle cx="402" cy="212" r="8" fill="rgba(139,92,246,0.3)"/>
+<text x="402" y="215" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#C4B5FD">ERP</text>
+<text x="402" y="242" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#4B5982">Integration</text>
+<rect x="446" y="192" width="68" height="60" rx="10" fill="rgba(16,185,129,0.1)" stroke="rgba(16,185,129,0.2)" stroke-width="1"/>
+<circle cx="480" cy="212" r="8" fill="rgba(16,185,129,0.3)"/>
+<text x="480" y="215" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#34D399">API</text>
+<text x="480" y="242" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#4B5982">Backend</text>
+<!-- Tech stack row -->
+<rect x="290" y="262" width="224" height="28" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+<g font-family="sans-serif" font-size="9" font-weight="600">
+  <text x="308" y="280" fill="#22D3EE">React</text>
+  <text x="348" y="280" fill="#10B981">Vue</text>
+  <text x="378" y="280" fill="#EC4899">Laravel</text>
+  <text x="422" y="280" fill="#F59E0B">Node.js</text>
+  <text x="464" y="280" fill="#8B5CF6">Next</text>
+</g>
+<text x="280" y="328" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#6A9FFF">Full-Stack Web Development — SaaS · E-commerce · Enterprise Portals</text>
 </svg>

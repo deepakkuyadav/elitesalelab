@@ -17,7 +17,32 @@
   <meta property="og:image" content="assets/img/ai.svg">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="theme-color" content="#3B7BFF">
-</head>
+<style>
+/* Newsletter form — light theme override */
+.nl-box {
+  background: linear-gradient(135deg,#1E3A8A,#2563EB) !important;
+  border: none !important;
+}
+.nl-box::before { display:none !important; }
+.nl-box h2, .nl-box p { color:#fff !important; }
+.nl-box p { color:rgba(255,255,255,.8) !important; }
+.nl-box .fi {
+  background: rgba(255,255,255,.15) !important;
+  border-color: rgba(255,255,255,.3) !important;
+  color: #fff !important;
+}
+.nl-box .fi::placeholder { color: rgba(255,255,255,.6) !important; }
+.nl-box .fi:focus {
+  background: rgba(255,255,255,.22) !important;
+  border-color: rgba(255,255,255,.6) !important;
+  box-shadow: 0 0 0 3px rgba(255,255,255,.15) !important;
+}
+.nl-ok {
+  background: rgba(255,255,255,.15) !important;
+  border-color: rgba(255,255,255,.4) !important;
+  color: #fff !important;
+}
+</style></head>
 <body>
 <!-- LOADER -->
 <div id="pg-ld">

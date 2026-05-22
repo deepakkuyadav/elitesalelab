@@ -471,3 +471,48 @@ select.fi option { background:#fff; color:#1E293B; }
 
 /* Selection */
 ::selection { background:rgba(37,99,235,.2) !important; color:#1E293B !important; }
+
+/* ── Index hero full override ─────────────────── */
+.hero {
+  background: linear-gradient(160deg,#1E40AF 0%,#2563EB 45%,#3B82F6 70%,#93C5FD 100%) !important;
+}
+.hero .h-sub  { color:rgba(255,255,255,.85) !important; }
+.hero .h-t1   { color:#fff !important; }
+.hero #typed  { color:#fff !important; border-color:#fff !important; }
+.hero .sec-badge { background:rgba(255,255,255,.15)!important; border-color:rgba(255,255,255,.3)!important; color:#fff!important; }
+.hero .tr-item { color:rgba(255,255,255,.8)!important; }
+.hero .btn-g   { border-color:rgba(255,255,255,.4)!important; color:#fff!important; background:rgba(255,255,255,.12)!important; }
+.hero .btn-g:hover { background:rgba(255,255,255,.22)!important; }
+.h-badge .sec-badge { color:#fff !important; }
+
+/* All body sections light */
+body > section, main section {
+  background: #F0F6FF;
+}
+.sp  { background:#F0F6FF !important; }
+.sp2 { background:#FFFFFF !important; }
+.sp3 { background:#EFF6FF !important; }
+
+/* Ticker on white */
+.ticker-s { background:#fff !important; border-color:#DBEAFE !important; }
+.tk-chip svg { color:#94A3B8 !important; }
+
+/* AI showcase section text on light bg */
+.ai-in h2  { color:#1E293B !important; }
+.ai-in p   { color:#475569 !important; }
+.ai-feat span { color:#475569 !important; }
+
+/* Process step text */
+.proc-s h4 { color:#1E293B !important; }
+.proc-s p  { color:#64748B !important; }
+
+/* Section text outside cards */
+[data-aos] h3 { color:#1E293B; }
+[data-aos] p  { color:#475569; }
+
+/* fm-section */
+.fm-section { background:#F0F6FF !important; }
+
+/* Contact page info text */
+.ct-g .glass h2 { color:#1E293B !important; }
+.ct-g .glass p  { color:#64748B !important; }

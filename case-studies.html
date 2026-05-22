@@ -9,143 +9,14 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/light.css">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="EliteSalesLab">
   <meta property="og:image" content="assets/img/ai.svg">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="theme-color" content="#3B7BFF">
 
-<style>
-/* ── Case Studies — Blue/White Theme ── */
-body { background: #F0F6FF !important; color: #1E293B !important; }
 
-/* Loader stays dark */
-#pg-ld { background: #06091A; }
-
-/* Navbar override — keep dark */
-.nb { background: rgba(6,9,26,.97) !important; }
-
-/* Page hero */
-.cs-hero {
-  background: linear-gradient(135deg, #1E3A8A 0%, #2563EB 50%, #3B82F6 100%);
-  padding: 130px 0 72px;
-  position: relative;
-  overflow: hidden;
-}
-.cs-hero::before {
-  content:'';
-  position:absolute;inset:0;
-  background:radial-gradient(circle at 20% 50%, rgba(255,255,255,.12), transparent),
-             radial-gradient(circle at 80% 20%, rgba(99,179,237,.2), transparent);
-}
-.cs-hero::after {
-  content:'';
-  position:absolute;inset:0;
-  background-image: radial-gradient(circle, rgba(255,255,255,.1) 1px, transparent 1px);
-  background-size: 36px 36px;
-}
-.cs-hero .cn { position:relative; z-index:1; }
-.cs-hero .sec-badge {
-  background: rgba(255,255,255,.15) !important;
-  border-color: rgba(255,255,255,.3) !important;
-  color: #fff !important;
-}
-.cs-hero h1 { color: #fff; }
-.cs-hero p  { color: rgba(255,255,255,.82); }
-
-/* Wave divider */
-.cs-wave { display:block; width:100%; height:60px; background:#F0F6FF; margin-top:-2px; }
-
-/* Body sections */
-.cs-body { background: #F0F6FF; }
-
-/* Cards */
-.cs-card {
-  background: #fff !important;
-  border: 1px solid #DBEAFE !important;
-  border-radius: 22px;
-  box-shadow: 0 4px 24px rgba(37,99,235,.07);
-  transition: transform .3s, box-shadow .3s !important;
-}
-.cs-card:hover {
-  transform: translateY(-6px) !important;
-  box-shadow: 0 16px 48px rgba(37,99,235,.14) !important;
-  border-color: #93C5FD !important;
-}
-
-/* Card text */
-.cs-card h2 { color: #1E293B !important; }
-.cs-card p  { color: #64748B !important; }
-.cs-card .cs-divider { border-color: #E2E8F0 !important; }
-.cs-card .cs-result  { color: #475569 !important; }
-
-/* Stat numbers */
-.cs-stat-num { color: #2563EB !important; }
-
-/* CTA banner */
-.cs-cta {
-  background: linear-gradient(135deg, #1E3A8A, #2563EB) !important;
-  border: none !important;
-  border-radius: 24px;
-}
-.cs-cta h2 { color: #fff !important; }
-.cs-cta p  { color: rgba(255,255,255,.78) !important; }
-.cs-cta::before, .cs-cta::after { display:none; }
-
-/* Section title */
-.cs-section-label { color: #2563EB; }
-.cs-section-h2 { color: #1E293B; }
-.cs-section-sub { color: #64748B; }
-
-/* Image box */
-.cs-img-box { border-color: #DBEAFE !important; background:#fff; }
-
-/* Footer stays dark */
-footer { background: #040715 !important; }
-.ft-col a, .ft-col h4, .ft-br p, .ft-cp { color: inherit; }
-
-/* Drawer stays dark */
-.dr { background: #0B1028 !important; }
-
-/* Scroll bar */
-::-webkit-scrollbar-track { background: #EFF6FF; }
-
-/* Badge color for light bg */
-.sec-badge { background: rgba(37,99,235,.1) !important; border-color: rgba(37,99,235,.25) !important; color: #2563EB !important; }
-
-/* Stats row */
-.cs-stats-row {
-  display: grid;
-  grid-template-columns: repeat(4,1fr);
-  gap: 16px;
-  margin: 48px 0;
-}
-.cs-stat-box {
-  background: #fff;
-  border: 1px solid #DBEAFE;
-  border-radius: 16px;
-  padding: 24px 16px;
-  text-align: center;
-  box-shadow: 0 2px 12px rgba(37,99,235,.06);
-}
-.cs-stat-box .num {
-  font-family: 'Syne', sans-serif;
-  font-weight: 800;
-  font-size: 2rem;
-  background: linear-gradient(135deg,#2563EB,#8B5CF6);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  display: block;
-  line-height: 1;
-  margin-bottom: 6px;
-}
-.cs-stat-box .lbl { font-size: .78rem; color: #94A3B8; }
-
-@media(max-width:768px) {
-  .cs-stats-row { grid-template-columns:1fr 1fr; }
-}
-</style>
 </head><body>
 <div id="pg-ld"><div class="ld-sq"><span>E</span></div><div class="ld-nm">Elite<b>Sales</b>Lab</div><div class="ld-bar-w"><div class="ld-bar"></div></div></div>
 <nav class="nb" id="nb">

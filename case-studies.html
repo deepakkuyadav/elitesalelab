@@ -14,6 +14,138 @@
   <meta property="og:image" content="assets/img/ai.svg">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="theme-color" content="#3B7BFF">
+
+<style>
+/* ── Case Studies — Blue/White Theme ── */
+body { background: #F0F6FF !important; color: #1E293B !important; }
+
+/* Loader stays dark */
+#pg-ld { background: #06091A; }
+
+/* Navbar override — keep dark */
+.nb { background: rgba(6,9,26,.97) !important; }
+
+/* Page hero */
+.cs-hero {
+  background: linear-gradient(135deg, #1E3A8A 0%, #2563EB 50%, #3B82F6 100%);
+  padding: 130px 0 72px;
+  position: relative;
+  overflow: hidden;
+}
+.cs-hero::before {
+  content:'';
+  position:absolute;inset:0;
+  background:radial-gradient(circle at 20% 50%, rgba(255,255,255,.12), transparent),
+             radial-gradient(circle at 80% 20%, rgba(99,179,237,.2), transparent);
+}
+.cs-hero::after {
+  content:'';
+  position:absolute;inset:0;
+  background-image: radial-gradient(circle, rgba(255,255,255,.1) 1px, transparent 1px);
+  background-size: 36px 36px;
+}
+.cs-hero .cn { position:relative; z-index:1; }
+.cs-hero .sec-badge {
+  background: rgba(255,255,255,.15) !important;
+  border-color: rgba(255,255,255,.3) !important;
+  color: #fff !important;
+}
+.cs-hero h1 { color: #fff; }
+.cs-hero p  { color: rgba(255,255,255,.82); }
+
+/* Wave divider */
+.cs-wave { display:block; width:100%; height:60px; background:#F0F6FF; margin-top:-2px; }
+
+/* Body sections */
+.cs-body { background: #F0F6FF; }
+
+/* Cards */
+.cs-card {
+  background: #fff !important;
+  border: 1px solid #DBEAFE !important;
+  border-radius: 22px;
+  box-shadow: 0 4px 24px rgba(37,99,235,.07);
+  transition: transform .3s, box-shadow .3s !important;
+}
+.cs-card:hover {
+  transform: translateY(-6px) !important;
+  box-shadow: 0 16px 48px rgba(37,99,235,.14) !important;
+  border-color: #93C5FD !important;
+}
+
+/* Card text */
+.cs-card h2 { color: #1E293B !important; }
+.cs-card p  { color: #64748B !important; }
+.cs-card .cs-divider { border-color: #E2E8F0 !important; }
+.cs-card .cs-result  { color: #475569 !important; }
+
+/* Stat numbers */
+.cs-stat-num { color: #2563EB !important; }
+
+/* CTA banner */
+.cs-cta {
+  background: linear-gradient(135deg, #1E3A8A, #2563EB) !important;
+  border: none !important;
+  border-radius: 24px;
+}
+.cs-cta h2 { color: #fff !important; }
+.cs-cta p  { color: rgba(255,255,255,.78) !important; }
+.cs-cta::before, .cs-cta::after { display:none; }
+
+/* Section title */
+.cs-section-label { color: #2563EB; }
+.cs-section-h2 { color: #1E293B; }
+.cs-section-sub { color: #64748B; }
+
+/* Image box */
+.cs-img-box { border-color: #DBEAFE !important; background:#fff; }
+
+/* Footer stays dark */
+footer { background: #040715 !important; }
+.ft-col a, .ft-col h4, .ft-br p, .ft-cp { color: inherit; }
+
+/* Drawer stays dark */
+.dr { background: #0B1028 !important; }
+
+/* Scroll bar */
+::-webkit-scrollbar-track { background: #EFF6FF; }
+
+/* Badge color for light bg */
+.sec-badge { background: rgba(37,99,235,.1) !important; border-color: rgba(37,99,235,.25) !important; color: #2563EB !important; }
+
+/* Stats row */
+.cs-stats-row {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 16px;
+  margin: 48px 0;
+}
+.cs-stat-box {
+  background: #fff;
+  border: 1px solid #DBEAFE;
+  border-radius: 16px;
+  padding: 24px 16px;
+  text-align: center;
+  box-shadow: 0 2px 12px rgba(37,99,235,.06);
+}
+.cs-stat-box .num {
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+  font-size: 2rem;
+  background: linear-gradient(135deg,#2563EB,#8B5CF6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  display: block;
+  line-height: 1;
+  margin-bottom: 6px;
+}
+.cs-stat-box .lbl { font-size: .78rem; color: #94A3B8; }
+
+@media(max-width:768px) {
+  .cs-stats-row { grid-template-columns:1fr 1fr; }
+}
+</style>
 </head><body>
 <div id="pg-ld"><div class="ld-sq"><span>E</span></div><div class="ld-nm">Elite<b>Sales</b>Lab</div><div class="ld-bar-w"><div class="ld-bar"></div></div></div>
 <nav class="nb" id="nb">
@@ -65,37 +197,57 @@
   <a href="contact.html" class="btn-p btn-full">Get a Free Quote</a>
 </div>
 <div id="dr-ov" onclick="togDr()"></div>
-<section class="pg-hero"><div class="dot-grid"></div><div class="cn pg-hero-in">
-  <div class="sec-badge" style="margin-bottom:14px">Case Studies</div>
-  <h1 class="pg-t">Proven <span class="grad-text">Business Outcomes</span></h1>
-  <p class="pg-sub">Real projects. Real results. The numbers speak for themselves.</p>
-</div></section>
-<section class="sp"><div class="cn">
-  <div style="border-radius:20px;overflow:hidden;margin-bottom:36px;border:1px solid rgba(255,255,255,.07)">
+<section class="cs-hero">
+  <div class="cn">
+    <div style="margin-bottom:18px">
+      <span class="sec-badge">Case Studies</span>
+    </div>
+    <h1 style="font-family:'Syne',sans-serif;font-weight:800;font-size:clamp(2.2rem,5vw,3.2rem);letter-spacing:-.04em;color:#fff;margin-bottom:16px;line-height:1.1">
+      Proven <span style="background:linear-gradient(135deg,#93C5FD,#C4B5FD);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text">Business Outcomes</span>
+    </h1>
+    <p style="color:rgba(255,255,255,.82);font-size:.97rem;max-width:540px;line-height:1.78">Real projects. Real results delivered to enterprises across 18 countries. The numbers speak for themselves.</p>
+    <!-- Stats row -->
+    <div class="cs-stats-row" style="margin-top:40px;margin-bottom:0">
+      <div class="cs-stat-box" data-aos="fade-up" data-aos-delay="0"><span class="num">500+</span><span class="lbl">Projects Delivered</span></div>
+      <div class="cs-stat-box" data-aos="fade-up" data-aos-delay="80"><span class="num">18</span><span class="lbl">Countries Served</span></div>
+      <div class="cs-stat-box" data-aos="fade-up" data-aos-delay="160"><span class="num">97%</span><span class="lbl">Client Satisfaction</span></div>
+      <div class="cs-stat-box" data-aos="fade-up" data-aos-delay="240"><span class="num">15yr</span><span class="lbl">Industry Experience</span></div>
+    </div>
+  </div>
+</section>
+<section style="padding:60px 0 88px;background:#F0F6FF"><div class="cn">
+  <div class="cs-img-box" style="border-radius:20px;overflow:hidden;margin-bottom:48px;border:1px solid #DBEAFE;box-shadow:0 4px 20px rgba(37,99,235,.08)">
     <img src="assets/img/portfolio.svg" alt="Case Studies Results" style="width:100%;display:block"/>
   </div>
-  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:22px"><div class="card" style="padding:36px" data-aos="fade-up" data-aos-delay="0">
+  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:22px"><div class="cs-card" style="padding:36px" data-aos="fade-up" data-aos-delay="0">
   <div style="width:52px;height:52px;border-radius:14px;background:#3B7BFF1A;margin-bottom:18px;display:flex;align-items:center;justify-content:center"><div style="width:18px;height:18px;border-radius:50%;background:#3B7BFF"></div></div>
   <span style="font-size:.7rem;font-weight:700;color:#3B7BFF">AI & ML · B2B SaaS</span>
   <h2 style="font-family:var(--fh);font-size:1rem;font-weight:700;margin:10px 0 6px;line-height:1.4">How FinNova Increased Sales Conversion by 47% with AI</h2>
   <p style="font-size:.8rem;color:var(--t3);margin-bottom:18px">Client: FinNova Capital</p>
-  <div style="border-top:1px solid var(--b1);padding-top:16px"><div style='display:flex;align-items:center;gap:8px;margin-bottom:8px'><svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5" width="12" height="12"><polyline points="20 6 9 17 4 12"/></svg><span style='font-size:.8rem;color:var(--t2)'>47% conversion lift</span></div><div style='display:flex;align-items:center;gap:8px;margin-bottom:8px'><svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5" width="12" height="12"><polyline points="20 6 9 17 4 12"/></svg><span style='font-size:.8rem;color:var(--t2)'>3x pipeline velocity</span></div><div style='display:flex;align-items:center;gap:8px;margin-bottom:8px'><svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5" width="12" height="12"><polyline points="20 6 9 17 4 12"/></svg><span style='font-size:.8rem;color:var(--t2)'>60% less manual work</span></div><div style='display:flex;align-items:center;gap:8px;margin-bottom:8px'><svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5" width="12" height="12"><polyline points="20 6 9 17 4 12"/></svg><span style='font-size:.8rem;color:var(--t2)'>INR 4Cr annual saving</span></div></div>
-</div><div class="card" style="padding:36px" data-aos="fade-up" data-aos-delay="100">
+  <div style="border-top:1px solid #E2E8F0;padding-top:16px"><div style='display:flex;align-items:center;gap:8px;margin-bottom:8px'><svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5" width="12" height="12"><polyline points="20 6 9 17 4 12"/></svg><span style='font-size:.8rem;color:#475569'>47% conversion lift</span></div><div style='display:flex;align-items:center;gap:8px;margin-bottom:8px'><svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5" width="12" height="12"><polyline points="20 6 9 17 4 12"/></svg><span style='font-size:.8rem;color:#475569'>3x pipeline velocity</span></div><div style='display:flex;align-items:center;gap:8px;margin-bottom:8px'><svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5" width="12" height="12"><polyline points="20 6 9 17 4 12"/></svg><span style='font-size:.8rem;color:#475569'>60% less manual work</span></div><div style='display:flex;align-items:center;gap:8px;margin-bottom:8px'><svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5" width="12" height="12"><polyline points="20 6 9 17 4 12"/></svg><span style='font-size:.8rem;color:#475569'>INR 4Cr annual saving</span></div></div>
+</div><div class="cs-card" style="padding:36px" data-aos="fade-up" data-aos-delay="100">
   <div style="width:52px;height:52px;border-radius:14px;background:#8B5CF61A;margin-bottom:18px;display:flex;align-items:center;justify-content:center"><div style="width:18px;height:18px;border-radius:50%;background:#8B5CF6"></div></div>
   <span style="font-size:.7rem;font-weight:700;color:#8B5CF6">ERP · Manufacturing</span>
   <h2 style="font-family:var(--fh);font-size:1rem;font-weight:700;margin:10px 0 6px;line-height:1.4">Pinnacle Industries Digitised INR 500Cr Operations in 8 Months</h2>
   <p style="font-size:.8rem;color:var(--t3);margin-bottom:18px">Client: Pinnacle Industries</p>
-  <div style="border-top:1px solid var(--b1);padding-top:16px"><div style='display:flex;align-items:center;gap:8px;margin-bottom:8px'><svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5" width="12" height="12"><polyline points="20 6 9 17 4 12"/></svg><span style='font-size:.8rem;color:var(--t2)'>INR 500Cr digitised</span></div><div style='display:flex;align-items:center;gap:8px;margin-bottom:8px'><svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5" width="12" height="12"><polyline points="20 6 9 17 4 12"/></svg><span style='font-size:.8rem;color:var(--t2)'>68% efficiency gain</span></div><div style='display:flex;align-items:center;gap:8px;margin-bottom:8px'><svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5" width="12" height="12"><polyline points="20 6 9 17 4 12"/></svg><span style='font-size:.8rem;color:var(--t2)'>4 plants connected</span></div><div style='display:flex;align-items:center;gap:8px;margin-bottom:8px'><svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5" width="12" height="12"><polyline points="20 6 9 17 4 12"/></svg><span style='font-size:.8rem;color:var(--t2)'>35% cost reduction</span></div></div>
-</div><div class="card" style="padding:36px" data-aos="fade-up" data-aos-delay="200">
+  <div style="border-top:1px solid #E2E8F0;padding-top:16px"><div style='display:flex;align-items:center;gap:8px;margin-bottom:8px'><svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5" width="12" height="12"><polyline points="20 6 9 17 4 12"/></svg><span style='font-size:.8rem;color:#475569'>INR 500Cr digitised</span></div><div style='display:flex;align-items:center;gap:8px;margin-bottom:8px'><svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5" width="12" height="12"><polyline points="20 6 9 17 4 12"/></svg><span style='font-size:.8rem;color:#475569'>68% efficiency gain</span></div><div style='display:flex;align-items:center;gap:8px;margin-bottom:8px'><svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5" width="12" height="12"><polyline points="20 6 9 17 4 12"/></svg><span style='font-size:.8rem;color:#475569'>4 plants connected</span></div><div style='display:flex;align-items:center;gap:8px;margin-bottom:8px'><svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5" width="12" height="12"><polyline points="20 6 9 17 4 12"/></svg><span style='font-size:.8rem;color:#475569'>35% cost reduction</span></div></div>
+</div><div class="cs-card" style="padding:36px" data-aos="fade-up" data-aos-delay="200">
   <div style="width:52px;height:52px;border-radius:14px;background:#22D3EE1A;margin-bottom:18px;display:flex;align-items:center;justify-content:center"><div style="width:18px;height:18px;border-radius:50%;background:#22D3EE"></div></div>
   <span style="font-size:.7rem;font-weight:700;color:#22D3EE">Mobile App · Logistics</span>
   <h2 style="font-family:var(--fh);font-size:1rem;font-weight:700;margin:10px 0 6px;line-height:1.4">SwiftDeliver Achieves 4.8 Rating with 200K+ App Downloads</h2>
   <p style="font-size:.8rem;color:var(--t3);margin-bottom:18px">Client: SwiftDeliver</p>
-  <div style="border-top:1px solid var(--b1);padding-top:16px"><div style='display:flex;align-items:center;gap:8px;margin-bottom:8px'><svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5" width="12" height="12"><polyline points="20 6 9 17 4 12"/></svg><span style='font-size:.8rem;color:var(--t2)'>4.8 App Store rating</span></div><div style='display:flex;align-items:center;gap:8px;margin-bottom:8px'><svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5" width="12" height="12"><polyline points="20 6 9 17 4 12"/></svg><span style='font-size:.8rem;color:var(--t2)'>200K+ downloads</span></div><div style='display:flex;align-items:center;gap:8px;margin-bottom:8px'><svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5" width="12" height="12"><polyline points="20 6 9 17 4 12"/></svg><span style='font-size:.8rem;color:var(--t2)'>50K daily deliveries</span></div><div style='display:flex;align-items:center;gap:8px;margin-bottom:8px'><svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5" width="12" height="12"><polyline points="20 6 9 17 4 12"/></svg><span style='font-size:.8rem;color:var(--t2)'>INR 12Cr revenue impact</span></div></div>
+  <div style="border-top:1px solid #E2E8F0;padding-top:16px"><div style='display:flex;align-items:center;gap:8px;margin-bottom:8px'><svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5" width="12" height="12"><polyline points="20 6 9 17 4 12"/></svg><span style='font-size:.8rem;color:#475569'>4.8 App Store rating</span></div><div style='display:flex;align-items:center;gap:8px;margin-bottom:8px'><svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5" width="12" height="12"><polyline points="20 6 9 17 4 12"/></svg><span style='font-size:.8rem;color:#475569'>200K+ downloads</span></div><div style='display:flex;align-items:center;gap:8px;margin-bottom:8px'><svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5" width="12" height="12"><polyline points="20 6 9 17 4 12"/></svg><span style='font-size:.8rem;color:#475569'>50K daily deliveries</span></div><div style='display:flex;align-items:center;gap:8px;margin-bottom:8px'><svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5" width="12" height="12"><polyline points="20 6 9 17 4 12"/></svg><span style='font-size:.8rem;color:#475569'>INR 12Cr revenue impact</span></div></div>
 </div></div>
-  <div style="margin-top:60px"><div class="cta-b" data-aos="zoom-in">
-    <div class="cta-tx"><h2>Your Success Story Starts Here</h2><p>Let us show you what we can build together.</p></div>
-    <a href="contact.html" class="btn-p" style="flex-shrink:0">Start Your Project</a>
+  <div style="margin-top:60px"><div class="cs-cta" style="padding:52px 48px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:28px;position:relative;overflow:hidden" data-aos="zoom-in">
+    <div style="position:absolute;right:-60px;top:-60px;width:240px;height:240px;background:radial-gradient(circle,rgba(255,255,255,.1),transparent);border-radius:50%"></div>
+    <div style="position:relative;z-index:1">
+      <h2 style="font-family:'Syne',sans-serif;font-weight:800;font-size:clamp(1.5rem,3vw,2rem);letter-spacing:-.03em;margin-bottom:10px;color:#fff">Your Success Story <span style="background:linear-gradient(135deg,#93C5FD,#C4B5FD);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text">Starts Here</span></h2>
+      <p style="color:rgba(255,255,255,.78);font-size:.92rem">Let us show you what we can build together. Free assessment, no commitment.</p>
+    </div>
+    <div style="display:flex;gap:12px;flex-shrink:0;position:relative;z-index:1">
+      <a href="contact.html" class="btn-p" style="background:rgba(255,255,255,.15);border:1.5px solid rgba(255,255,255,.4);backdrop-filter:blur(10px)">Start Your Project</a>
+      <a href="portfolio.html" class="btn-p" style="background:#fff;color:#2563EB">View Portfolio</a>
+    </div>
   </div></div>
 </div></section><footer>
   <div class="cn">
